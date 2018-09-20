@@ -1,0 +1,2 @@
+﻿  main_smooth.cpp
+main_smooth.cpp : fatal error C1041: cannot open program database 'C:\Users\Collin Abidi\Desktop\CARLsim4\doc\source\tutorial\4_image_processing\x64\Release\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS

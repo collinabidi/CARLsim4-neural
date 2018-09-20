@@ -1,0 +1,2 @@
+﻿  visual_stimulus.cpp
+c:\users\collin abidi\desktop\carlsim4\tools\visual_stimulus\visual_stimulus.cpp(3): fatal error C1083: Cannot open include file: 'poisson_rate.h': No such file or directory

@@ -1,0 +1,152 @@
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2018] *********************************************************************************
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2020] ********************      Welcome to CARLsim 4.0      ***************************
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2021] *********************************************************************************
+
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2023] ***************************** Configuring Network ********************************
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2025] Starting CARLsim simulation "truenorth core simulation" in USER mode
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2026] Random number seed: 42
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Thu Sep 20 01:23:44 2018
+
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=0, mulFast=1.000000, mulSlow=1.000000
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=1, mulFast=1.000000, mulSlow=1.000000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:448] Running COBA mode:
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:449]   - AMPA decay time            =     5 ms
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:450]   - NMDA rise time (disabled)  =     0 ms
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:451]   - GABAa decay time           =     6 ms
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:452]   - GABAb rise time (disabled) =     0 ms
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:453]   - GABAb decay time           =   150 ms
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3471] Beginning compilation of the network....
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 1(hidden), St=0, End=120
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 2(output), St=121, End=130
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 0(input), St=131, End=386
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3492] 
+
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3493] ************************** Global Network Configuration *******************************
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3494] The number of neurons in the network (numN) = 387
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3495] The number of regular neurons in the network (numNReg:numNExcReg:numNInhReg) = 131:131:0
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3496] The number of poisson neurons in the network (numNPois:numNExcPois:numInhPois) = 256:256:0
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3497] The maximum axonal delay in the network (maxDelay) = 1
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3513] CUDA devices Configuration:
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3514]   - Number of CUDA devices          =         1
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3517]   - CUDA device ID with max GFLOPs  =         0
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3521]   + Use CUDA device[0]              = Quadro M1000M
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3522]   + CUDA Compute Capability (CC)    =       5.0
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (hidden) [id:1, local id:0], St=0, End=120
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (output) [id:2, local id:1], St=121, End=130
+[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (input) [id:0, local id:2], St=131, End=386
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5167] 
++ Local Network (0)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5168] |-+ Group List:
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group input(G:0,L:2): 
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:131,L:131)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:386,L:386)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =     3122
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group hidden(G:1,L:0): 
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      121
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:0,L:0)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:120,L:120)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =      163
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =     3122
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group output(G:2,L:1): 
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =       10
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:121,L:121)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:130,L:130)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        0
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =      163
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5174] |-+ Connection List:
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: input(0) => hidden(1)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =    FIXED
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 3122
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    25.80
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    12.20
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 1: hidden(1) => output(2)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =    FIXED
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 163
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    16.30
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     1.35
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5444] 
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5446] *****************      Initializing GPU 0 Runtime      *************************
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3604] GPU Memory Management: (Total 4096.000 MB)
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3605] Data			Size		Total Used	Total Available
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3607] Init:			4096.000 MB	665.234 MB	3430.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3620] Random Gen:		3.000 MB	668.234 MB	3427.766 MB
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 121, Total Buffer Cnt = 1, Buffer Cnt = 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 10, Total Buffer Cnt = 2, Buffer Cnt = 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 4, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:292] STATIC THREAD ALLOCATION
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:293] ------------------------
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:294] Buffer Size = 128, Buffer Count = 4
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 0. Start=0, size=121 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 1. Start=121, size=10 grpId=1:output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 2. Start=131, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 3. Start=259, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:326] GPU loadBufferSize = 128, GPU loadBufferCount = 4
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3633] Static Load:		0.000 MB	668.234 MB	3427.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3642] Conn Info:		2.000 MB	670.234 MB	3425.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3648] Syn State:		1.000 MB	671.234 MB	3424.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3665] Neuron State:		0.000 MB	671.234 MB	3424.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3672] Group State:		0.000 MB	671.234 MB	3424.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3682] Auxiliary Data:		1.000 MB	672.234 MB	3423.766 MB
+
+
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3698] Transfering group settings to GPU:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group hidden:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 121
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 163
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 3122
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group output:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 10
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 163
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group input:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 7
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 3122
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 0 (input)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 1 (hidden)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 2 (output)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1165] ConnectionMonitor 0 set for Connection 0: 0(input) => 1(hidden)
+[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1165] ConnectionMonitor 1 set for Connection 1: 1(hidden) => 2(output)

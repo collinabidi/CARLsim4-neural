@@ -1,0 +1,2 @@
+﻿  main_compartments.cpp
+c:\users\collin abidi\desktop\carlsim4\doc\source\tutorial\8_compartments\src\main_compartments.cpp(44): fatal error C1083: Cannot open include file: 'carlsim.h': No such file or directory

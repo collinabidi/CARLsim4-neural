@@ -1,0 +1,21 @@
+﻿  user_errors.cpp
+  poisson_rate.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  c:\users\collin abidi\desktop\carlsim4\carlsim\interface\src\poisson_rate.cpp(189): note: see reference to function template instantiation '_OutIt *std::copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<float>>>,float*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=float *,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<float>>>
+          ]
+  linear_algebra.cpp
+  carlsim.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\interface\src\carlsim.cpp(186): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  callback_core.cpp
+  Generating Code...
+  interface.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\interface.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

@@ -1,0 +1,17 @@
+﻿  spike_monitor_core.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\spike_monitor_core.h(52): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  spike_monitor.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\spike_monitor.h(54): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  neuron_monitor_core.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\neuron_monitor_core.h(52): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  neuron_monitor.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\neuron_monitor.h(52): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  group_monitor_core.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\group_monitor_core.h(52): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  group_monitor.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\group_monitor.h(54): fatal error C1083: Cannot open include file: 'carlsim_datastructures.h': No such file or directory
+  connection_monitor_core.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\connection_monitor_core.h(53): fatal error C1083: Cannot open include file: 'carlsim_definitions.h': No such file or directory
+  connection_monitor.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\monitor\connection_monitor.h(53): fatal error C1083: Cannot open include file: 'carlsim_definitions.h': No such file or directory
+  Generating Code...

@@ -1,0 +1,2 @@
+﻿  main_simple_weight_tuner.cpp
+c:\users\collin abidi\desktop\carlsim4\doc\source\tutorial\6_simple_weight_tuner\src\main_simple_weight_tuner.cpp(49): fatal error C1083: Cannot open include file: 'carlsim.h': No such file or directory

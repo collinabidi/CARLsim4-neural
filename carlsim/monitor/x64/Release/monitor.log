@@ -1,0 +1,45 @@
+﻿  connection_monitor.cpp
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(122): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(125): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(128): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+  connection_monitor_core.cpp
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(122): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(125): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\monitor\connection_monitor_core.h(128): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+connection_monitor_core.cpp(353): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+connection_monitor_core.cpp(354): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+connection_monitor_core.cpp(379): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+connection_monitor_core.cpp(451): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  group_monitor.cpp
+  group_monitor_core.cpp
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+group_monitor_core.cpp(128): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+group_monitor_core.cpp(140): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+group_monitor_core.cpp(155): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+group_monitor_core.cpp(167): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  neuron_monitor.cpp
+neuron_monitor.cpp(104): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  neuron_monitor_core.cpp
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+neuron_monitor_core.cpp(232): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+neuron_monitor_core.cpp(286): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  spike_monitor.cpp
+spike_monitor.cpp(273): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  spike_monitor_core.cpp
+C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+spike_monitor_core.cpp(132): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+spike_monitor_core.cpp(192): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+spike_monitor_core.cpp(200): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+spike_monitor_core.cpp(241): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+spike_monitor_core.cpp(247): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+spike_monitor_core.cpp(284): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+spike_monitor_core.cpp(401): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+spike_monitor_core.cpp(460): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+  monitor.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\monitor.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

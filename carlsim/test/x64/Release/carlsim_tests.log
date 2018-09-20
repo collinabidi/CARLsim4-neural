@@ -1,0 +1,31 @@
+﻿  carlsim_tests_common.cpp
+carlsim_tests_common.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  coba.cpp
+coba.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  compartments.cpp
+compartments.cpp(1): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  connect.cpp
+connect.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  conn_mon.cpp
+conn_mon.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  core.cpp
+core.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  cuba.cpp
+cuba.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  group_mon.cpp
+group_mon.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  interface.cpp
+interface.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  multi_runtimes.cpp
+multi_runtimes.cpp(50): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  poiss_rate.cpp
+poiss_rate.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  spike_gen.cpp
+spike_gen.cpp(49): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  spike_mon.cpp
+spike_mon.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  stdp.cpp
+stdp.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  stp.cpp
+stp.cpp(48): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory

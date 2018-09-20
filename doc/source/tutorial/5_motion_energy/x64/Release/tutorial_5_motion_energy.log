@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project '..\..\..\..\external\MotionEnergy\cppME\motion_energy.vcxproj' does not exist.
+  main_motion_energy.cpp
+src\main_motion_energy.cpp(40): fatal error C1083: Cannot open include file: 'motion_energy.h': No such file or directory

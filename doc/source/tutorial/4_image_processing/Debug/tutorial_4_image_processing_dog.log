@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (tutorial_4_image_processing_smooth.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+  main_dog.cpp
+c:\users\collin abidi\desktop\carlsim4\doc\source\tutorial\4_image_processing\main_dog.cpp : fatal error C1041: cannot open program database 'C:\Users\Collin Abidi\Desktop\CARLsim4\doc\source\tutorial\4_image_processing\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS

@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (hello_world.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main_truenorth_core.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\truenorth_core.exe) does not match the Linker's OutputFile property value (C:\Users\Collin Abidi\Desktop\CARLsim4\projects\truenorth_core\truenorth_core.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  234 of 2429 functions ( 9.6%) were compiled, the rest were copied from previous compilation.
+    30 functions were new in current compilation
+    91 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  truenorth_core.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\truenorth_core.exe
+  truenorth_core.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\truenorth_core.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

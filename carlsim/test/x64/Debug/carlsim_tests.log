@@ -1,0 +1,134 @@
+﻿  stp.cpp
+  stdp.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(125): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(126): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(130): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(131): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(231): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(232): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(233): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(234): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(254): warning C4101: 'weights': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(255): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(366): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(462): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(565): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(646): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(744): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(839): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(944): warning C4101: 'size': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\stdp.cpp(1044): warning C4101: 'size': unreferenced local variable
+  spike_mon.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(168): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(216): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(269): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(285): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(289): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(338): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(353): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(356): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(419): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(434): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(436): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(490): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(510): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(523): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(527): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(579): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(580): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(605): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_mon.cpp(619): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  spike_gen.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(73): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(136): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(145): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(218): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(227): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\spike_gen.cpp(325): warning C4305: 'argument': truncation from 'double' to 'float'
+  poiss_rate.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(73): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(93): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(119): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(123): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(150): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\poiss_rate.cpp(178): warning C4805: '==': unsafe mix of type 'bool' and type 'int' in operation
+  multi_runtimes.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\multi_runtimes.cpp(66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\multi_runtimes.cpp(90): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  interface.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(286): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(290): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(295): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(296): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(307): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(313): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(314): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(326): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(332): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(333): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(334): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(335): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(336): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(337): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(521): warning C4101: 'wM': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\interface.cpp(522): warning C4101: 'w': unreferenced local variable
+  group_mon.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\group_mon.cpp(125): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\group_mon.cpp(223): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  cuba.cpp
+  core.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(121): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(122): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(546): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(595): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\core.cpp(600): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  conn_mon.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(150): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(193): warning C4305: 'argument': truncation from 'int' to 'bool'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(211): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(215): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(216): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(217): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(226): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(227): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(228): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(229): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(230): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(268): warning C4305: 'argument': truncation from 'int' to 'bool'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(339): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(341): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(343): warning C4244: '=': conversion from 'std::streamoff' to 'long', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(393): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(406): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(422): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\conn_mon.cpp(370): warning C4101: 'connPre': unreferenced local variable
+  connect.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(179): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(181): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(182): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(183): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(184): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(190): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(370): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(376): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\connect.cpp(380): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  compartments.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\compartments.cpp(44): warning C4101: 'numModes': unreferenced local variable
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\compartments.cpp(218): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  coba.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\coba.cpp(72): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\coba.cpp(161): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\coba.cpp(161): warning C4305: 'initializing': truncation from 'double' to 'float'
+  carlsim_tests_common.cpp
+c:\users\collin abidi\desktop\carlsim4\carlsim\test\carlsim_tests_common.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\carlsim_tests.exe) does not match the Linker's OutputFile property value (C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\test\carlsim_tests.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1104: cannot open file 'gtest.lib'

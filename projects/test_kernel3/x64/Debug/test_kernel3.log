@@ -1,0 +1,11 @@
+﻿  main_test_kernel3.cpp
+c:\users\collin abidi\desktop\carlsim4\projects\test_kernel3\main_test_kernel3.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\projects\test_kernel3\main_test_kernel3.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\collin abidi\desktop\carlsim4\projects\test_kernel3\main_test_kernel3.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\test_kernel3.exe) does not match the Linker's OutputFile property value (C:\Users\Collin Abidi\Desktop\CARLsim4\projects\test_kernel3\test_kernel3.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  test_kernel3.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\test_kernel3.exe
+  test_kernel3.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\test_kernel3.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.

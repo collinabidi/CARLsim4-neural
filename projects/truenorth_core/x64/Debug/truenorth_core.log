@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (hello_world.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main_truenorth_core.cpp
+c:\users\collin abidi\desktop\carlsim4\projects\truenorth_core\src\main_truenorth_core.cpp(74): warning C4129: 'm': unrecognized character escape sequence
+c:\users\collin abidi\desktop\carlsim4\projects\truenorth_core\src\main_truenorth_core.cpp(74): warning C4129: 'd': unrecognized character escape sequence
+  truenorth_core.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\truenorth_core.exe
+  truenorth_core.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\truenorth_core.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
