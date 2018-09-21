@@ -66,16 +66,18 @@ int main() {
 	// keep track of execution time
 	Stopwatch watch;
 
+	/*
 	// load and format images from MNIST dataset
 	Mat train_data_mat, train_label_mat;
 	Mat test_data_mat, test_label_mat;
 
 	loadMNIST("C:\\mnist\\data\\train-images.idx3-ubyte", "C:\\mnist\\data\\train-labels.idx1-ubyte", train_data_mat, train_label_mat);
-	loadMNIST("C:\mnist\data\t10k-images.idx3-ubyte", "C:\mnist\data\t10k-labels.idx1-ubyte", test_data_mat, test_label_mat);
+	loadMNIST("C:\\mnist\data\\t10k-images.idx3-ubyte", "C:\\mnist\\data\\t10k-labels.idx1-ubyte", test_data_mat, test_label_mat);
 
 	train_data_mat.convertTo(train_data_mat, CV_32F);
 	train_label_mat.convertTo(train_label_mat, CV_32F);
 	test_data_mat.convertTo(test_data_mat, CV_32F);
+	*/
 
 	// ---------------- CONFIG STATE -------------------
 	
@@ -87,7 +89,7 @@ int main() {
 	// configure the network
 	// set up a COBA three-layer network with full connectivity
 	Grid3D gridIn(16, 16, 1); // input axons are on a 28 x 28 x 1 grid
-	Grid3D gridHidden(10, 10, 1); // hidden layer neurons are on a 20 x 20 x 1 grid
+	Grid3D gridHidden(12, 12, 1); // hidden layer neurons are on a 20 x 20 x 1 grid
 	Grid3D gridOut(10, 1, 1); // output neurons are on a 10 x 1 grid
 
 	// create groups
@@ -117,35 +119,18 @@ int main() {
 	sim.setConnectionMonitor(ghide, gout, "DEFAULT");
 
 	// load in input image
-	//cv::Mat imageFlip = train_data_mat.row(0);
-	Mat mat;
+	Mat mat, dst;
 	//cv::flip(imageFlip, image, 1);
-	mat = cv::imread("../../projects/truenorth_core/input_data/two.bmp", cv::IMREAD_GRAYSCALE);	// Read the file, convert to greyscale
-	std::vector<float> array;
+	mat = cv::imread("../../projects/truenorth_core/input_data/two.bmp", IMREAD_GRAYSCALE);	// Read the file, convert to greyscale
+	mat.convertTo(mat, CV_32F);
+	// convert mat image to array
+	std::vector<float> array((float*)mat.data, (float*)mat.data + mat.rows * mat.cols);
 
-	if (!mat.data)	// Check for invalid input
-	{
-		std::cout << "Could not open or find the image" << std::endl;
-		return -1;
-	}
-	// convert image to 2D vector that will act as input
-	else
-	{
-		if (mat.isContinuous()) {
-			array.assign((float*)mat.datastart, (float*)mat.dataend);
-		}
-		else {
-			for (int i = 0; i < mat.rows; ++i) {
-				array.insert(array.end(), mat.ptr<float>(i), mat.ptr<float>(i) + mat.cols);
-			}
-		}
-	}
 
 	//setup some baseline input
-	PoissonRate in(gridIn.N, true);
+	PoissonRate in(gridIn.N);
 	in.setRates(array);
 	sim.setSpikeRate(gin, &in);
-
 
 	// ---------------- RUN STATE -------------------
 	watch.lap("runNetwork");
@@ -153,7 +138,7 @@ int main() {
 	// run for a total of 10 seconds
 	// at the end of each runNetwork call, SpikeMonitor stats will be printed
 	for (int i = 0; i<20; i++) {
-		sim.runNetwork(0, 120);
+		sim.runNetwork(0, 100);
 	}
 
 	// print stopwatch summary

@@ -1,136 +1,136 @@
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2018] *********************************************************************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2020] ********************      Welcome to CARLsim 4.0      ***************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2021] *********************************************************************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2018] *********************************************************************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2020] ********************      Welcome to CARLsim 4.0      ***************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2021] *********************************************************************************
 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2023] ***************************** Configuring Network ********************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2025] Starting CARLsim simulation "basics" in USER mode
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2026] Random number seed: 1537295312
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Tue Sep 18 14:28:32 2018
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2023] ***************************** Configuring Network ********************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2025] Starting CARLsim simulation "basics" in USER mode
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2026] Random number seed: 1537496083
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Thu Sep 20 22:14:43 2018
 
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=0, mulFast=1.000000, mulSlow=1.000000
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:448] Running COBA mode:
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:449]   - AMPA decay time            =     5 ms
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:450]   - NMDA rise time (disabled)  =     0 ms
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:451]   - GABAa decay time           =     6 ms
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:452]   - GABAb rise time (disabled) =     0 ms
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:453]   - GABAb decay time           =   150 ms
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3471] Beginning compilation of the network....
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 1(output), St=0, End=0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 0(input), St=1, End=1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3492] 
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=0, mulFast=1.000000, mulSlow=1.000000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:448] Running COBA mode:
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:449]   - AMPA decay time            =     5 ms
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:450]   - NMDA rise time (disabled)  =     0 ms
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:451]   - GABAa decay time           =     6 ms
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:452]   - GABAb rise time (disabled) =     0 ms
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:453]   - GABAb decay time           =   150 ms
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3471] Beginning compilation of the network....
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 1(output), St=0, End=0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 0(input), St=1, End=1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3492] 
 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3493] ************************** Global Network Configuration *******************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3494] The number of neurons in the network (numN) = 2
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3495] The number of regular neurons in the network (numNReg:numNExcReg:numNInhReg) = 1:1:0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3496] The number of poisson neurons in the network (numNPois:numNExcPois:numInhPois) = 1:1:0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:3497] The maximum axonal delay in the network (maxDelay) = 1
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3513] CUDA devices Configuration:
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3514]   - Number of CUDA devices          =         1
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3517]   - CUDA device ID with max GFLOPs  =         0
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3521]   + Use CUDA device[0]              = Quadro M1000M
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3522]   + CUDA Compute Capability (CC)    =       5.0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (output) [id:1, local id:0], St=0, End=0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (input) [id:0, local id:1], St=1, End=1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5167] 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3493] ************************** Global Network Configuration *******************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3494] The number of neurons in the network (numN) = 2
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3495] The number of regular neurons in the network (numNReg:numNExcReg:numNInhReg) = 1:1:0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3496] The number of poisson neurons in the network (numNPois:numNExcPois:numInhPois) = 1:1:0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3497] The maximum axonal delay in the network (maxDelay) = 1
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3513] CUDA devices Configuration:
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3514]   - Number of CUDA devices          =         1
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3517]   - CUDA device ID with max GFLOPs  =         0
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3521]   + Use CUDA device[0]              = Quadro M1000M
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3522]   + CUDA Compute Capability (CC)    =       5.0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (output) [id:1, local id:0], St=0, End=0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (input) [id:0, local id:1], St=1, End=1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5167] 
 + Local Network (8)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5168] |-+ Group List:
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group input(G:0,L:1): 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1,L:1)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1,L:1)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group output(G:1,L:0): 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:0,L:0)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:0,L:0)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5174] |-+ Connection List:
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: input(0) => output(1)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =    FIXED
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.10000
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.10000
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =    -1.00
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =    -1.00
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =    -1.00
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =     1.00
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     1.00
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5444] 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:5448] *****************      Initializing CPU 0 Runtime      *************************
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1973] copyExternalCurrent: lGrpId=-1, ptrPos=0, length=1, allocate=y
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1415] Transfering group settings to CPU:
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1417] Settings for Group output:
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1419] 	Type: 6
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1420] 	NumN: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1421] 	M: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1422] 	PreM: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1423] 	spikeGenerator: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1424] 	FixedInputWts: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1425] 	MaxDelay: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1426] 	WithSTDP: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1443] 	WithSTP: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1449] 	spikeGen: is not set 
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1417] Settings for Group input:
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1419] 	Type: 7
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1420] 	NumN: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1421] 	M: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1422] 	PreM: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1423] 	spikeGenerator: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1424] 	FixedInputWts: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1425] 	MaxDelay: 1
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1426] 	WithSTDP: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1443] 	WithSTP: 0
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_cpu_module.cpp:1449] 	spikeGen: is not set 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 1 (output)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:807] 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:808] ******************** Running the simulation on 0 GPU(s) and 1 CPU(s) ***************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:809] 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group output(1) has 5 spikes in 1000ms (5.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group output(1) has 8 spikes in 1000ms (8.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=3.000s) SpikeMonitor for group output(1) has 10 spikes in 1000ms (10.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=4.000s) SpikeMonitor for group output(1) has 13 spikes in 1000ms (13.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=5.000s) SpikeMonitor for group output(1) has 14 spikes in 1000ms (14.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=6.000s) SpikeMonitor for group output(1) has 18 spikes in 1000ms (18.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=7.000s) SpikeMonitor for group output(1) has 23 spikes in 1000ms (23.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=8.000s) SpikeMonitor for group output(1) has 24 spikes in 1000ms (24.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=9.000s) SpikeMonitor for group output(1) has 22 spikes in 1000ms (22.00 +/- 0.00 Hz)
-[DEBUG c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\print_snn_info.cpp:116] (t=10.000s) SpikeMonitor for group output(1) has 26 spikes in 1000ms (26.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6545] 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5168] |-+ Group List:
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group input(G:0,L:1): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1,L:1)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1,L:1)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group output(G:1,L:0): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:0,L:0)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:0,L:0)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5174] |-+ Connection List:
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: input(0) => output(1)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =    FIXED
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.10000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.10000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =    -1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =    -1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =    -1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5444] 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5448] *****************      Initializing CPU 0 Runtime      *************************
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1973] copyExternalCurrent: lGrpId=-1, ptrPos=0, length=1, allocate=y
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1415] Transfering group settings to CPU:
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1417] Settings for Group output:
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1419] 	Type: 6
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1420] 	NumN: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1421] 	M: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1422] 	PreM: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1423] 	spikeGenerator: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1424] 	FixedInputWts: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1425] 	MaxDelay: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1426] 	WithSTDP: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1443] 	WithSTP: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1449] 	spikeGen: is not set 
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1417] Settings for Group input:
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1419] 	Type: 7
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1420] 	NumN: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1421] 	M: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1422] 	PreM: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1423] 	spikeGenerator: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1424] 	FixedInputWts: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1425] 	MaxDelay: 1
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1426] 	WithSTDP: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1443] 	WithSTP: 0
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_cpu_module.cpp:1449] 	spikeGen: is not set 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 1 (output)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:807] 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:808] ******************** Running the simulation on 0 GPU(s) and 1 CPU(s) ***************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:809] 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group output(1) has 3 spikes in 1000ms (3.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group output(1) has 9 spikes in 1000ms (9.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=3.000s) SpikeMonitor for group output(1) has 11 spikes in 1000ms (11.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=4.000s) SpikeMonitor for group output(1) has 14 spikes in 1000ms (14.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=5.000s) SpikeMonitor for group output(1) has 15 spikes in 1000ms (15.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=6.000s) SpikeMonitor for group output(1) has 18 spikes in 1000ms (18.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=7.000s) SpikeMonitor for group output(1) has 19 spikes in 1000ms (19.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=8.000s) SpikeMonitor for group output(1) has 22 spikes in 1000ms (22.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=9.000s) SpikeMonitor for group output(1) has 28 spikes in 1000ms (28.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=1000ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=10.000s) SpikeMonitor for group output(1) has 27 spikes in 1000ms (27.00 +/- 0.00 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6545] 
 
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6546] ********************    Simulation Summary      ***************************
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6549] Network Parameters: 	numNeurons = 2 (numNExcReg:numNInhReg = 50.0:0.0)
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6550] 			numSynapses = 1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6551] 			maxDelay = 1
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6552] Simulation Mode:	COBA
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6553] Random Seed:		1537295312
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6554] Timing:			Model Simulation Time = 10 sec
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431602.59 sec
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6557] Average Firing Rate:	2+ms delay = 0.000 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = 35.700 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = 35.700 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6561] Overall Spike Count Transferred:
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6562] 			2+ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6563] 			1ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6564] Overall Spike Count:	2+ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 714
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 714
-[INFO c:\users\collin abidi\desktop\carlsim4\carlsim\kernel\src\snn_manager.cpp:6567] *********************************************************************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6546] ********************    Simulation Summary      ***************************
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6549] Network Parameters: 	numNeurons = 2 (numNExcReg:numNInhReg = 50.0:0.0)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6550] 			numSynapses = 1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6551] 			maxDelay = 1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6552] Simulation Mode:	COBA
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6553] Random Seed:		1537496083
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6554] Timing:			Model Simulation Time = 10 sec
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431602.53 sec
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6557] Average Firing Rate:	2+ms delay = 0.000 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = 36.500 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = 36.500 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6561] Overall Spike Count Transferred:
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6562] 			2+ms delay = 0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6563] 			1ms delay = 0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6564] Overall Spike Count:	2+ms delay = 0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 730
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 730
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6567] *********************************************************************************
 
