@@ -22,5 +22,4 @@ CARLsim GitHub
 IBM TrueNorth
 J. Sawada et al., "TrueNorth Ecosystem for Brain-Inspired Computing: Scalable Systems, Software, and Applications," SC '16: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, Salt Lake City, UT, 2016, pp. 130-141.
 doi: 10.1109/SC.2016.11
-keywords: {cloud computing;firmware;learning (artificial intelligence);mobile computing;multiprocessing systems;neural nets;parallel machines;programming languages;teaching;TrueNorth ecosystem;brain-inspired computing;hardware ecosystem;software ecosystem;TrueNorth processor;16 single-chip boards;programming language;firmware;deep learning;teaching curriculum;neural network;mobile computing;embedded computing;cloud computing;supercomputer;Biological neural networks;Ecosystems;Neurons;Hardware;Software;Training;Computer architecture},
 URL: (http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7877010&isnumber=7876994)
