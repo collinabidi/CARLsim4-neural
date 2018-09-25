@@ -1,0 +1,20 @@
+#Documentation
+
+#Setup
+After downloading CARLsim4 and all the required pacakges, I had to reconfigure the settings. When trying to run a program for the 
+first time, the program would say that it couldn't find the .exe file, so I had to copy it from the main file into the /x64/Debug and 
+/x64/Release files. In addition, I would get errors saying that the project couldn't find a header file, such as Stopwatch.h. To fix
+this, I had to update the C++/Additional Include Directories under Project/Properties to find each .h file I wanted. To use the mnist
+database and functions, I had to include the location of where I downloaded the MNIST C++ reader (https://github.com/wichtounet/mnist).
+When loading the mnist data in the project, I had to explicitly define where it was located on the C: drive.
+
+#Simulating an SNN
+Follow the procedures on (https://uci-carl.github.io/CARLsim3/ch1_getting_started.html) to Config, Setup, and Run a user-defined SNN.
+In truenorth_core, I tested the functionality by loading a specified .bmp image from the project /input_data file that acted as the 
+input spike vector to the 16x16x1 input layer. Running the included demoOAT.mat MATLAB scripts in the /scripts folder visualizes the 
+input image, hidden layer, and output. So far with no training, the output layer (a 10x1x1 grid of neurons) doesn't signify anything. 
+
+#MNIST Classification
+The current iteration of this project is attempting to train a SNN to recognize handwritten digits based on the MNIST database and 
+CNN concepts. Taking the MNIST files that contain 10,000 training samples/labels and 6,000 testing samples/labels, I am currently
+attempting to configure the SNN to properly classify handwritten digits 0-9.
