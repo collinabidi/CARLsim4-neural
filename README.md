@@ -7,7 +7,9 @@ CARLsim is an efficient, easy-to-use, GPU-accelerated library for simulating lar
 This project aims to simulate different neurmorphic chip designs by mapping architectures to an equivalent SNN representation that achieves performance similar to that of the real-world hardware in order to bridge the gap between CNNs and SNNs.
 
 #TrueNorth
+
 The TrueNorth branch is a simulation of the IBM TrueNorth chip, a neuromorphic CPU designed to simulate mammalian brain image processing functions.
+Currently working on implementing Deep Learning techniques to classify handwritten digits using the MNIST Database.
 
 
 #Citations/Links
