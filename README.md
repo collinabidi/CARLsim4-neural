@@ -15,6 +15,8 @@ The TrueNorth branch is a simulation of the IBM TrueNorth chip, a neuromorphic C
 Chou*, T.-S., Kashyap*, H.J., Xing, J., Listopad, S., Rounds, E.L., Beyeler, M., Dutt, N., and Krichmar, J.L. (2018). "CARLsim 4: An Open Source Library for Large Scale, Biologically Detailed Spiking Neural Network Simulation using Heterogeneous Clusters." In Proceedings of IEEE International Joint Conference on Neural Networks (IJCNN), pp. 1158-1165. (*co-first authors)
 URL: (https://www.socsci.uci.edu/~jkrichma/Chou-Kashyap-CARLsim4-IJCNN2018.pdf)
 
+OpenCV
+(https://opencv.org/)
 
 CARLsim GitHub
 (https://github.com/UCI-CARL/CARLsim4)
