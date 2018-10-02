@@ -1,0 +1,16 @@
+Algorithm 1: Forward and Backward Propagation
+//Forward propagation
+for l=1:layers do
+	for c=1:layer(l).cores do
+		Calculate core binary crossbar connections c_i_j and effective weights
+		w_i_j
+	end for
+end for
+Estimate log loss in last layer
+//Backpropagation
+for l=1:layers do
+	for c=1:layers(l).cores do
+		Calculate gradiants using c_i_j
+		Update c_i_j^sh using estimated gradients
+	end for
+end for

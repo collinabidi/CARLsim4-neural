@@ -1,12 +1,12 @@
 ﻿  callback_core.cpp
   carlsim.cpp
-C:\Users\Collin Abidi\Desktop\CARLsim4\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Collin Abidi\Desktop\CARLsim4-neural\carlsim\kernel\inc\snn.h(623): warning C4800: 'unsigned int': forcing value to bool 'true' or 'false' (performance warning)
 src\carlsim.cpp(186): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
   linear_algebra.cpp
   poisson_rate.cpp
   user_errors.cpp
-  interface.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\interface.lib
-  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4\x64\Release\"
+  interface.vcxproj -> C:\Users\Collin Abidi\Desktop\CARLsim4-neural\x64\Release\interface.lib
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "C:\Users\Collin Abidi\Desktop\CARLsim4-neural\x64\Release\"
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
           2 file(s) copied.

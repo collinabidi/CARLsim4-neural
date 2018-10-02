@@ -66,19 +66,6 @@ int main() {
 	// keep track of execution time
 	Stopwatch watch;
 
-	/*
-	// load and format images from MNIST dataset
-	Mat train_data_mat, train_label_mat;
-	Mat test_data_mat, test_label_mat;
-
-	loadMNIST("C:\\mnist\\data\\train-images.idx3-ubyte", "C:\\mnist\\data\\train-labels.idx1-ubyte", train_data_mat, train_label_mat);
-	loadMNIST("C:\\mnist\data\\t10k-images.idx3-ubyte", "C:\\mnist\\data\\t10k-labels.idx1-ubyte", test_data_mat, test_label_mat);
-
-	train_data_mat.convertTo(train_data_mat, CV_32F);
-	train_label_mat.convertTo(train_label_mat, CV_32F);
-	test_data_mat.convertTo(test_data_mat, CV_32F);
-	*/
-
 	// ---------------- CONFIG STATE -------------------
 	
 	// create a network on GPU
@@ -88,22 +75,44 @@ int main() {
 
 	// configure the network
 	// set up a COBA three-layer network with full connectivity
-	Grid3D gridIn(16, 16, 1); // input axons are on a 28 x 28 x 1 grid
-	Grid3D gridHidden(12, 12, 1); // hidden layer neurons are on a 20 x 20 x 1 grid
+	Grid3D gridIn(28, 28, 1); // input axons are on a 28 x 28 x 1 grid
+	Grid3D gridHidden1(16, 16, 1); // hidden layer 1 neurons are on a 16 x 16 x 1 grid
+	Grid3D gridHidden2(16, 16, 1); // hidden layer 2 neurons are on a 16 x 16 x 1 grid
 	Grid3D gridOut(10, 1, 1); // output neurons are on a 10 x 1 grid
 
 	// create groups
 	int gin=sim.createSpikeGeneratorGroup("input", gridIn, EXCITATORY_NEURON);
-	int ghide = sim.createGroup("hidden", gridHidden, EXCITATORY_NEURON);
+	int ghide1 = sim.createGroup("hidden1", gridHidden1, EXCITATORY_NEURON);
+	int ghide2 = sim.createGroup("hidden2", gridHidden2, EXCITATORY_NEURON);
 	int gout=sim.createGroup("output", gridOut, EXCITATORY_NEURON);
 
 	// set group parameters
-	sim.setNeuronParameters(ghide, 0.02f, 0.2f, -65.0f, 8.0f);
+	// membrane potential ->					v (mV)
+	// recovery variable  ->					u
+	// sum of all synaptic currents ->			I = i_synaptic + I_external
+	// rate constant of u ->					a
+	// sensitivity of u to fluctuations in v -> b
+	//
+	// change in recovery variable		du/dt = a(bv - u)
+	// change in membrane potential		dv/dt = 0.04v^2 + 5v + 140 - u + I
+
+	// currently set to regular spiking neurons
+	sim.setNeuronParameters(ghide1, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(ghide2, 0.02f, 0.2f, -65.0f, 8.0f);
 	sim.setNeuronParameters(gout, 0.02f, 0.2f, -65.0f, 8.0f);
 
-	// set connections
-	sim.connect(gin, ghide, "full", RangeWeight(0.05), 1.0f, RangeDelay(1), RadiusRF(3,3,1));
-	sim.connect(ghide, gout, "full", RangeWeight(0.05), 1.0f, RangeDelay(1), RadiusRF(3, 3, 1));
+	// set connection weight/neuron parameters
+	double low_w_in_hidden = -1;
+	double high_w_in_hidden = 1;
+	double low_w_hidden_out = -1;
+	double high_w_hidden_out = 1;
+
+	int in_hidden1 = sim.connect(gin, ghide1, "full", RangeWeight(low_w_in_hidden, high_w_in_hidden), 0.5f, RangeDelay(1), 
+			RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
+	int in_hidden2 = sim.connect(ghide1, ghide2, "full", RangeWeight(low_w_in_hidden, high_w_in_hidden), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
+	int hidden_out = sim.connect(ghide2, gout, "full", RangeWeight(low_w_hidden_out, high_w_hidden_out), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
 	sim.setConductances(true);
 
 	// ---------------- SETUP STATE -------------------
@@ -113,32 +122,46 @@ int main() {
 
 	// set some monitors
 	sim.setSpikeMonitor(gin,"DEFAULT");
-	sim.setSpikeMonitor(ghide, "DEFAULT");
+	sim.setSpikeMonitor(ghide1, "DEFAULT");
+	sim.setSpikeMonitor(ghide2, "DEFAULT");
 	sim.setSpikeMonitor(gout,"DEFAULT");
-	sim.setConnectionMonitor(gin,ghide,"DEFAULT");
-	sim.setConnectionMonitor(ghide, gout, "DEFAULT");
-
-	// load in input image
-	Mat mat, dst;
-	//cv::flip(imageFlip, image, 1);
-	mat = cv::imread("../../projects/truenorth_core/input_data/two.bmp", IMREAD_GRAYSCALE);	// Read the file, convert to greyscale
-	mat.convertTo(mat, CV_32F);
-	// convert mat image to array
-	std::vector<float> array((float*)mat.data, (float*)mat.data + mat.rows * mat.cols);
-
+	sim.setConnectionMonitor(gin,ghide1,"DEFAULT");
+	sim.setConnectionMonitor(ghide1, ghide2, "DEFAULT");
+	sim.setConnectionMonitor(ghide2, gout, "DEFAULT");
 
 	//setup some baseline input
-	PoissonRate in(gridIn.N);
-	in.setRates(array);
-	sim.setSpikeRate(gin, &in);
+	PoissonRate in(gridIn.N, true);
 
 	// ---------------- RUN STATE -------------------
 	watch.lap("runNetwork");
 
-	// run for a total of 10 seconds
-	// at the end of each runNetwork call, SpikeMonitor stats will be printed
-	for (int i = 0; i<20; i++) {
-		sim.runNetwork(0, 100);
+	// load and format images from MNIST dataset
+	Mat train_data_mat, train_label_mat;
+	Mat test_data_mat, test_label_mat;
+
+	loadMNIST("C:\\mnist\\data\\train-images.idx3-ubyte", "C:\\mnist\\data\\train-labels.idx1-ubyte", train_data_mat, train_label_mat);
+	loadMNIST("C:\\mnist\\data\\t10k-images.idx3-ubyte", "C:\\mnist\\data\\t10k-labels.idx1-ubyte", test_data_mat, test_label_mat);
+
+	train_data_mat.convertTo(train_data_mat, CV_32F);
+	train_label_mat.convertTo(train_label_mat, CV_32F);
+	test_data_mat.convertTo(test_data_mat, CV_32F);
+
+	Mat train_image, train_label;
+	// ************************* TRAIN IMAGES ***************************
+	for (int i = 0; i<5; i++) {
+		// load image from MNIST dataset
+		train_image = train_data_mat.row(i);
+		train_label = train_label_mat.row(i);
+
+		// vectorize input image for spiking input
+		std::vector<float> array((float*)train_image.data, (float*)train_image.data + train_image.rows * train_image.cols);
+
+		// set input spikes based on input image
+		in.setRates(array);
+		sim.setSpikeRate(gin, &in);
+
+		// run network for 150 ms for each image
+		sim.runNetwork(0, 150);
 	}
 
 	// print stopwatch summary
