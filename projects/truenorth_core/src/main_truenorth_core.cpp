@@ -74,46 +74,53 @@ int main() {
 	CARLsim sim("truenorth core simulation", GPU_MODE, USER, numGPUs, randSeed);
 
 	// configure the network
-	// set up a COBA three-layer network with full connectivity
-	Grid3D gridIn(28, 28, 1); // input axons are on a 28 x 28 x 1 grid
-	Grid3D gridHidden1(16, 16, 1); // hidden layer 1 neurons are on a 16 x 16 x 1 grid
-	Grid3D gridHidden2(16, 16, 1); // hidden layer 2 neurons are on a 16 x 16 x 1 grid
-	Grid3D gridOut(10, 1, 1); // output neurons are on a 10 x 1 grid
+	Grid3D core1_in(16, 16, 1);		// input axons are on a		256 x 1 x 1 grid
+	Grid3D core1_out(16, 16, 1);	// output neurons are on a	256 x 1 x 1 grid
+	Grid3D core2_in(16, 16, 1);		// input axons are on a		256 x 1 x 1 grid
+	Grid3D core2_out(16, 16, 1);	// output neurons are on a	256 x 1 x 1 grid
+	Grid3D core3_in(16, 16, 1);		// input axons are on a		256 x 1 x 1 grid
+	Grid3D core3_out(16, 16, 1);	// output neurons are on a	256 x 1 x 1 grid
+	Grid3D core4_in(16, 16, 1);		// input axons are on a		256 x 1 x 1 grid
+	Grid3D core4_out(16, 16, 1);	// output neurons are on a	256 x 1 x 1 grid
+	Grid3D result(10, 1, 1);		// output vector (digits 0-9)
 
 	// create groups
-	int gin=sim.createSpikeGeneratorGroup("input", gridIn, EXCITATORY_NEURON);
-	int ghide1 = sim.createGroup("hidden1", gridHidden1, EXCITATORY_NEURON);
-	int ghide2 = sim.createGroup("hidden2", gridHidden2, EXCITATORY_NEURON);
-	int gout=sim.createGroup("output", gridOut, EXCITATORY_NEURON);
-
-	// set group parameters
-	// membrane potential ->					v (mV)
-	// recovery variable  ->					u
-	// sum of all synaptic currents ->			I = i_synaptic + I_external
-	// rate constant of u ->					a
-	// sensitivity of u to fluctuations in v -> b
-	//
-	// change in recovery variable		du/dt = a(bv - u)
-	// change in membrane potential		dv/dt = 0.04v^2 + 5v + 140 - u + I
+	int gin_1=sim.createSpikeGeneratorGroup("core1_input", core1_in, EXCITATORY_NEURON);
+	int gout_1=sim.createGroup("core1_output", core1_out, EXCITATORY_NEURON);
+	int gin_2 = sim.createSpikeGeneratorGroup("core2_input", core2_in, EXCITATORY_NEURON);
+	int gout_2 = sim.createGroup("core2_output", core2_out, EXCITATORY_NEURON);
+	int gin_3 = sim.createSpikeGeneratorGroup("core3_input", core3_in, EXCITATORY_NEURON);
+	int gout_3 = sim.createGroup("core3_output", core3_out, EXCITATORY_NEURON);
+	int gin_4 = sim.createSpikeGeneratorGroup("core4_input", core4_in, EXCITATORY_NEURON);
+	int gout_4 = sim.createGroup("core4_output", core4_out, EXCITATORY_NEURON);
+	int gresult = sim.createGroup("result_output", result, EXCITATORY_NEURON);
 
 	// currently set to regular spiking neurons
-	sim.setNeuronParameters(ghide1, 0.02f, 0.2f, -65.0f, 8.0f);
-	sim.setNeuronParameters(ghide2, 0.02f, 0.2f, -65.0f, 8.0f);
-	sim.setNeuronParameters(gout, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(gout_1, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(gout_2, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(gout_3, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(gout_4, 0.02f, 0.2f, -65.0f, 8.0f);
+	sim.setNeuronParameters(gresult, 0.02f, 0.2f, -65.0f, 8.0f);
 
 	// set connection weight/neuron parameters
-	double low_w_in_hidden = -1;
-	double high_w_in_hidden = 1;
-	double low_w_hidden_out = -1;
-	double high_w_hidden_out = 1;
-
-	int in_hidden1 = sim.connect(gin, ghide1, "full", RangeWeight(low_w_in_hidden, high_w_in_hidden), 0.5f, RangeDelay(1), 
-			RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
-	int in_hidden2 = sim.connect(ghide1, ghide2, "full", RangeWeight(low_w_in_hidden, high_w_in_hidden), 0.5f, RangeDelay(1),
-		RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
-	int hidden_out = sim.connect(ghide2, gout, "full", RangeWeight(low_w_hidden_out, high_w_hidden_out), 0.5f, RangeDelay(1),
-		RadiusRF(3, 3, 1), SYN_FIXED, 1.5f, 0.5f);
+	int in_out_1 = sim.connect(gin_1, gout_1, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int in_out_2 = sim.connect(gin_2, gout_2, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int in_out_3 = sim.connect(gin_3, gout_3, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int in_out_4 = sim.connect(gin_4, gout_4, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int out_result_1 = sim.connect(gout_1, gresult, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int out_result_2 = sim.connect(gout_2, gresult, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int out_result_3 = sim.connect(gout_3, gresult, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
+	int out_result_4 = sim.connect(gout_4, gresult, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
 	sim.setConductances(true);
+	
 
 	// ---------------- SETUP STATE -------------------
 	// build the network
@@ -121,16 +128,21 @@ int main() {
 	sim.setupNetwork();
 
 	// set some monitors
-	sim.setSpikeMonitor(gin,"DEFAULT");
-	sim.setSpikeMonitor(ghide1, "DEFAULT");
-	sim.setSpikeMonitor(ghide2, "DEFAULT");
-	sim.setSpikeMonitor(gout,"DEFAULT");
-	sim.setConnectionMonitor(gin,ghide1,"DEFAULT");
-	sim.setConnectionMonitor(ghide1, ghide2, "DEFAULT");
-	sim.setConnectionMonitor(ghide2, gout, "DEFAULT");
+	sim.setSpikeMonitor(gin_1,"DEFAULT");
+	sim.setSpikeMonitor(gin_2, "DEFAULT");
+	sim.setSpikeMonitor(gin_3, "DEFAULT");
+	sim.setSpikeMonitor(gin_4, "DEFAULT");
+	sim.setSpikeMonitor(gout_1,"DEFAULT");
+	sim.setSpikeMonitor(gout_2, "DEFAULT");
+	sim.setSpikeMonitor(gout_3, "DEFAULT");
+	sim.setSpikeMonitor(gout_4, "DEFAULT");
+	sim.setSpikeMonitor(gresult, "DEFAULT");
 
 	//setup some baseline input
-	PoissonRate in(gridIn.N, true);
+	PoissonRate in_1(core1_in.N, true);
+	PoissonRate in_2(core2_in.N, true);
+	PoissonRate in_3(core3_in.N, true);
+	PoissonRate in_4(core4_in.N, true);
 
 	// ---------------- RUN STATE -------------------
 	watch.lap("runNetwork");
@@ -155,13 +167,34 @@ int main() {
 
 		// vectorize input image for spiking input
 		std::vector<float> array((float*)train_image.data, (float*)train_image.data + train_image.rows * train_image.cols);
-
+		std::vector<float> array_1;
+		std::vector<float> array_2;
+		std::vector<float> array_3;
+		std::vector<float> array_4;
+		// vectorize inputs for each of the four cores
+		for (int j = 0; j < 16; j++)
+		{
+			array_1.insert(array_1.end(), array.begin() + j * 28, array.begin() + (j * 28 + 16));
+			array_2.insert(array_2.end(), array.begin() + (j * 28 + 4), array.begin() + (j * 28 + 20));
+			array_3.insert(array_3.end(), array.begin() + (j + 12) * 28, array.begin() + ((j + 12) * 28 + 16));
+			array_4.insert(array_4.end(), array.begin() + ((j + 12) * 28 + 4), array.begin() + ((j + 12) * 28 + 20));
+		}
 		// set input spikes based on input image
-		in.setRates(array);
-		sim.setSpikeRate(gin, &in);
+		cout << array_1.size() << endl;
+		cout << array_2.size() << endl;
+		cout << array_3.size() << endl;
+		cout << array_4.size() << endl;
+		in_1.setRates(array_1);
+		sim.setSpikeRate(gin_1, &in_1);
+		in_2.setRates(array_2);
+		sim.setSpikeRate(gin_2, &in_2);
+		in_3.setRates(array_3);
+		sim.setSpikeRate(gin_3, &in_3);
+		in_4.setRates(array_4);
+		sim.setSpikeRate(gin_4, &in_4);
 
 		// run network for 150 ms for each image
-		sim.runNetwork(0, 150);
+		sim.runNetwork(0, 500);
 	}
 
 	// print stopwatch summary

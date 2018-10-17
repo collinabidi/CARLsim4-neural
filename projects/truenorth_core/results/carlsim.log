@@ -5,10 +5,16 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2023] ***************************** Configuring Network ********************************
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2025] Starting CARLsim simulation "truenorth core simulation" in USER mode
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2026] Random number seed: 42
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Mon Oct  1 22:07:41 2018
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Wed Oct 17 10:13:28 2018
 
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=0, mulFast=1.500000, mulSlow=0.500000
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=1, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=2, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=3, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=4, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=5, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=6, mulFast=1.500000, mulSlow=0.500000
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=7, mulFast=1.500000, mulSlow=0.500000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:448] Running COBA mode:
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:449]   - AMPA decay time            =     5 ms
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:450]   - NMDA rise time (disabled)  =     0 ms
@@ -16,68 +22,164 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:452]   - GABAb rise time (disabled) =     0 ms
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:453]   - GABAb decay time           =   150 ms
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3471] Beginning compilation of the network....
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 1(hidden), St=0, End=575
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 2(output), St=576, End=585
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 0(input), St=586, End=1369
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 1(core1_output), St=0, End=255
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 3(core2_output), St=256, End=511
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 5(core3_output), St=512, End=767
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 7(core4_output), St=768, End=1023
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 8(result_output), St=1024, End=1033
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 0(core1_input), St=1034, End=1289
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 2(core2_input), St=1290, End=1545
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 4(core3_input), St=1546, End=1801
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2861] Allocation for 6(core4_input), St=1802, End=2057
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3492] 
 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3493] ************************** Global Network Configuration *******************************
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3494] The number of neurons in the network (numN) = 1370
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3495] The number of regular neurons in the network (numNReg:numNExcReg:numNInhReg) = 586:586:0
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3496] The number of poisson neurons in the network (numNPois:numNExcPois:numInhPois) = 784:784:0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3494] The number of neurons in the network (numN) = 2058
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3495] The number of regular neurons in the network (numNReg:numNExcReg:numNInhReg) = 1034:1034:0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3496] The number of poisson neurons in the network (numNPois:numNExcPois:numInhPois) = 1024:1024:0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:3497] The maximum axonal delay in the network (maxDelay) = 1
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3513] CUDA devices Configuration:
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3514]   - Number of CUDA devices          =         1
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3517]   - CUDA device ID with max GFLOPs  =         0
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3521]   + Use CUDA device[0]              = Quadro M1000M
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3522]   + CUDA Compute Capability (CC)    =       5.0
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (hidden) [id:1, local id:0], St=0, End=575
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (output) [id:2, local id:1], St=576, End=585
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (input) [id:0, local id:2], St=586, End=1369
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core1_output) [id:1, local id:0], St=0, End=255
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core2_output) [id:3, local id:1], St=256, End=511
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core3_output) [id:5, local id:2], St=512, End=767
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core4_output) [id:7, local id:3], St=768, End=1023
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (result_output) [id:8, local id:4], St=1024, End=1033
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core1_input) [id:0, local id:5], St=1034, End=1289
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core2_input) [id:2, local id:6], St=1290, End=1545
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core3_input) [id:4, local id:7], St=1546, End=1801
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2880] Allocation for group (core4_input) [id:6, local id:8], St=1802, End=2057
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5167] 
 + Local Network (0)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5168] |-+ Group List:
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group input(G:0,L:2): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core1_input(G:0,L:5): 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      784
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:586,L:586)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1369,L:1369)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =    15849
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1034,L:1034)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1289,L:1289)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =     6308
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group hidden(G:1,L:0): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core1_output(G:1,L:0): 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      576
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:0,L:0)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:575,L:575)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:255,L:255)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =      168
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =    15849
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group output(G:2,L:1): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core2_input(G:2,L:6): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1290,L:1290)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1545,L:1545)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core2_output(G:3,L:1): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:256,L:256)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:511,L:511)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =      168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core3_input(G:4,L:7): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1546,L:1546)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1801,L:1801)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core3_output(G:5,L:2): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:512,L:512)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:767,L:767)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =      168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core4_input(G:6,L:8): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1802,L:1802)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:2057,L:2057)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =        0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:265]     |- Refractory period          = -107374176.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group core4_output(G:7,L:3): 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =      256
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:768,L:768)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1023,L:1023)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =      168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =     6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:249]   |-+ Local Group result_output(G:8,L:4): 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:252]     |- Type                       =    EXCIT
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:253]     |- Num of Neurons             =       10
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:576,L:576)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:585,L:585)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:254]     |- Start Id                   = (G:1024,L:1024)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:255]     |- End Id                     = (G:1033,L:1033)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:256]     |- numPostSynapses            =        0
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =      168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:257]     |- numPreSynapses             =      672
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5174] |-+ Connection List:
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: input(0) => hidden(1)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: core1_input(0) => core1_output(1)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.05000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 15849
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    27.52
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    20.22
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 1: hidden(1) => output(2)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 1: core2_input(2) => core2_output(3)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 =  0.05000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             =  0.05000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 2: core3_input(4) => core3_output(5)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 3: core4_input(6) => core4_output(7)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 6308
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =    24.64
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 4: core1_output(1) => result_output(8)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
@@ -85,68 +187,150 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 168
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    16.80
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     0.29
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     0.66
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 5: core2_output(3) => result_output(8)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    16.80
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     0.66
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 6: core3_output(5) => result_output(8)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    16.80
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     0.66
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 7: core4_output(7) => result_output(8)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:193]     |- Radius Y                   =     3.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:194]     |- Radius Z                   =     1.00
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:195]     |- Num of synapses            = 168
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:198]     |- Avg numPreSynapses         =    16.80
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:199]     |- Avg numPostSynapses        =     0.66
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5444] 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:5446] *****************      Initializing GPU 0 Runtime      *************************
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3604] GPU Memory Management: (Total 4096.000 MB)
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3605] Data			Size		Total Used	Total Available
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3607] Init:			4096.000 MB	665.234 MB	3430.766 MB
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3620] Random Gen:		3.000 MB	668.234 MB	3427.766 MB
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 576, Total Buffer Cnt = 5, Buffer Cnt = 5
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 10, Total Buffer Cnt = 6, Buffer Cnt = 1
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 784, Total Buffer Cnt = 13, Buffer Cnt = 7
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 2, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 4, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 6, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 8, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 10, Total Buffer Cnt = 9, Buffer Cnt = 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 11, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 13, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 15, Buffer Cnt = 2
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:287] Grp Size = 256, Total Buffer Cnt = 17, Buffer Cnt = 2
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:292] STATIC THREAD ALLOCATION
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:293] ------------------------
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:294] Buffer Size = 128, Buffer Count = 13
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 0. Start=0, size=128 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 1. Start=128, size=128 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 2. Start=256, size=128 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 3. Start=384, size=128 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 4. Start=512, size=64 grpId=0:hidden (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 5. Start=576, size=10 grpId=1:output (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 6. Start=586, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 7. Start=714, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 8. Start=842, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 9. Start=970, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 10. Start=1098, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 11. Start=1226, size=128 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 12. Start=1354, size=16 grpId=2:input (SpikeMonId=-1) (GroupMonId=-1)
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:326] GPU loadBufferSize = 128, GPU loadBufferCount = 13
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:294] Buffer Size = 128, Buffer Count = 17
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 0. Start=0, size=128 grpId=0:core1_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 1. Start=128, size=128 grpId=0:core1_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 2. Start=256, size=128 grpId=1:core2_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 3. Start=384, size=128 grpId=1:core2_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 4. Start=512, size=128 grpId=2:core3_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 5. Start=640, size=128 grpId=2:core3_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 6. Start=768, size=128 grpId=3:core4_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 7. Start=896, size=128 grpId=3:core4_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 8. Start=1024, size=10 grpId=4:result_output (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 9. Start=1034, size=128 grpId=5:core1_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 10. Start=1162, size=128 grpId=5:core1_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 11. Start=1290, size=128 grpId=6:core2_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 12. Start=1418, size=128 grpId=6:core2_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 13. Start=1546, size=128 grpId=7:core3_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 14. Start=1674, size=128 grpId=7:core3_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 15. Start=1802, size=128 grpId=8:core4_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:318] 16. Start=1930, size=128 grpId=8:core4_input (SpikeMonId=-1) (GroupMonId=-1)
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:326] GPU loadBufferSize = 128, GPU loadBufferCount = 17
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3633] Static Load:		1.000 MB	669.234 MB	3426.766 MB
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3642] Conn Info:		2.000 MB	671.234 MB	3424.766 MB
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3648] Syn State:		1.000 MB	672.234 MB	3423.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3642] Conn Info:		3.000 MB	672.234 MB	3423.766 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3648] Syn State:		0.000 MB	672.234 MB	3423.766 MB
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3665] Neuron State:		0.000 MB	672.234 MB	3423.766 MB
 [INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3672] Group State:		0.000 MB	672.234 MB	3423.766 MB
-[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3682] Auxiliary Data:		2.625 MB	674.859 MB	3421.141 MB
+[INFO C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3682] Auxiliary Data:		3.938 MB	676.172 MB	3419.828 MB
 
 
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3698] Transfering group settings to GPU:
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group hidden:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core1_output:
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 576
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 168
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 15849
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 6308
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group output:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core2_output:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 168
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core3_output:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 168
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core4_output:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 168
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group result_output:
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 6
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 10
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 0
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 168
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 672
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group input:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core1_input:
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 7
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 784
-[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 15849
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 6308
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 1
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
@@ -154,312 +338,119 @@
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
 [DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 0 (input)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 1 (hidden)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 2 (output)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1165] ConnectionMonitor 0 set for Connection 0: 0(input) => 1(hidden)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1165] ConnectionMonitor 1 set for Connection 1: 1(hidden) => 2(output)
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=150ms, printRunSummary=y
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core2_input:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 7
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core3_input:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 7
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3700] Settings for Group core4_input:
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3702] 	Type: 7
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3703] 	NumN: 256
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3704] 	M: 6308
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3705] 	PreM: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3706] 	spikeGenerator: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3707] 	FixedInputWts: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3708] 	MaxDelay: 1
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3709] 	WithSTDP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3726] 	WithSTP: 0
+[DEBUG C:/Users/Collin Abidi/Desktop/CARLsim4-neural/carlsim/kernel/src/gpu_module/snn_gpu_module.cu:3732] 	spikeGen: is not set 
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 0 (core1_input)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 2 (core2_input)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 4 (core3_input)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 6 (core4_input)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 1 (core1_output)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 3 (core2_output)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 5 (core3_output)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 7 (core4_output)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:1214] SpikeMonitor set for group 8 (result_output)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:807] 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:808] ******************** Running the simulation on 1 GPU(s) and 0 CPU(s) ***************************
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:809] 
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.150s) SpikeMonitor for group input(0) has 4192 spikes in 150ms (35.65 +/- 82.59 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.150s) SpikeMonitor for group hidden(1) has 4840 spikes in 150ms (56.02 +/- 61.29 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.150s) SpikeMonitor for group output(2) has 0 spikes in 150ms (0.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.150s) ConnectionMonitor ID=0 0(input) => 1(hidden): [preId,postId] wt (+/-wtChange in 150ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 24] 0.0500 (+0.0000)   [  0, 25] 0.0500 (+0.0000)   [  0, 26] 0.0500 (+0.0000)   [  0, 48] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 49] 0.0500 (+0.0000)   [  0, 50] 0.0500 (+0.0000)   [  0, 72] 0.0500 (+0.0000)   [  1,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   [  1,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 24] 0.0500 (+0.0000)   [  1, 25] 0.0500 (+0.0000)   [  1, 26] 0.0500 (+0.0000)   [  1, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 48] 0.0500 (+0.0000)   [  1, 49] 0.0500 (+0.0000)   [  1, 50] 0.0500 (+0.0000)   [  1, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 73] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  2, 24] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 25] 0.0500 (+0.0000)   [  2, 26] 0.0500 (+0.0000)   [  2, 27] 0.0500 (+0.0000)   [  2, 28] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 48] 0.0500 (+0.0000)   [  2, 49] 0.0500 (+0.0000)   [  2, 50] 0.0500 (+0.0000)   [  2, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 52] 0.0500 (+0.0000)   [  2, 74] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   [  3,  1] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   [  3,  5] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  6] 0.0500 (+0.0000)   [  3, 25] 0.0500 (+0.0000)   [  3, 26] 0.0500 (+0.0000)   [  3, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 28] 0.0500 (+0.0000)   [  3, 29] 0.0500 (+0.0000)   [  3, 49] 0.0500 (+0.0000)   [  3, 50] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 51] 0.0500 (+0.0000)   [  3, 52] 0.0500 (+0.0000)   [  3, 53] 0.0500 (+0.0000)   [  3, 75] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   [  4,  7] 0.0500 (+0.0000)   [  4, 26] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 27] 0.0500 (+0.0000)   [  4, 28] 0.0500 (+0.0000)   [  4, 29] 0.0500 (+0.0000)   [  4, 30] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 50] 0.0500 (+0.0000)   [  4, 51] 0.0500 (+0.0000)   [  4, 52] 0.0500 (+0.0000)   [  4, 53] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 54] 0.0500 (+0.0000)   [  4, 76] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  4] 0.0500 (+0.0000)   [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  8] 0.0500 (+0.0000)   [  5, 27] 0.0500 (+0.0000)   [  5, 28] 0.0500 (+0.0000)   [  5, 29] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 30] 0.0500 (+0.0000)   [  5, 31] 0.0500 (+0.0000)   [  5, 51] 0.0500 (+0.0000)   [  5, 52] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 53] 0.0500 (+0.0000)   [  5, 54] 0.0500 (+0.0000)   [  5, 55] 0.0500 (+0.0000)   [  5, 77] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.150s) ConnectionMonitor ID=1 1(hidden) => 2(output): [preId,postId] wt (+/-wtChange in 150ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  0] 0.0500 (+0.0000)   [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  4] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  1] 0.0500 (+0.0000)   [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  5] 0.0500 (+0.0000)   [  3,  6] 0.0500 (+0.0000)   [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  7] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   [  5,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   [  5,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  7] 0.0500 (+0.0000)   [  6,  8] 0.0500 (+0.0000)   [  6,  9] 0.0500 (+0.0000)   [  7,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  5] 0.0500 (+0.0000)   [  7,  6] 0.0500 (+0.0000)   [  7,  7] 0.0500 (+0.0000)   [  7,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  9] 0.0500 (+0.0000)   [  8,  5] 0.0500 (+0.0000)   [  8,  6] 0.0500 (+0.0000)   [  8,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  8,  8] 0.0500 (+0.0000)   [  8,  9] 0.0500 (+0.0000)   [  9,  6] 0.0500 (+0.0000)   [  9,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  9,  8] 0.0500 (+0.0000)   [  9,  9] 0.0500 (+0.0000)   [ 10,  7] 0.0500 (+0.0000)   [ 10,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 10,  9] 0.0500 (+0.0000)   [ 11,  8] 0.0500 (+0.0000)   [ 11,  9] 0.0500 (+0.0000)   [ 12,  9] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 24,  0] 0.0500 (+0.0000)   [ 24,  1] 0.0500 (+0.0000)   [ 24,  2] 0.0500 (+0.0000)   [ 25,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 25,  1] 0.0500 (+0.0000)   [ 25,  2] 0.0500 (+0.0000)   [ 25,  3] 0.0500 (+0.0000)   [ 26,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 26,  1] 0.0500 (+0.0000)   [ 26,  2] 0.0500 (+0.0000)   [ 26,  3] 0.0500 (+0.0000)   [ 26,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  1] 0.0500 (+0.0000)   [ 27,  2] 0.0500 (+0.0000)   [ 27,  3] 0.0500 (+0.0000)   [ 27,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  5] 0.0500 (+0.0000)   [ 28,  2] 0.0500 (+0.0000)   [ 28,  3] 0.0500 (+0.0000)   [ 28,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 28,  5] 0.0500 (+0.0000)   [ 28,  6] 0.0500 (+0.0000)   [ 29,  3] 0.0500 (+0.0000)   [ 29,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 29,  5] 0.0500 (+0.0000)   [ 29,  6] 0.0500 (+0.0000)   [ 29,  7] 0.0500 (+0.0000)   [ 30,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 30,  5] 0.0500 (+0.0000)   [ 30,  6] 0.0500 (+0.0000)   [ 30,  7] 0.0500 (+0.0000)   [ 30,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 31,  5] 0.0500 (+0.0000)   [ 31,  6] 0.0500 (+0.0000)   [ 31,  7] 0.0500 (+0.0000)   [ 31,  8] 0.0500 (+0.0000)   
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=150ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.300s) SpikeMonitor for group input(0) has 4781 spikes in 150ms (40.65 +/- 86.92 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.300s) SpikeMonitor for group hidden(1) has 5300 spikes in 150ms (61.34 +/- 62.26 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.300s) SpikeMonitor for group output(2) has 0 spikes in 150ms (0.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.300s) ConnectionMonitor ID=0 0(input) => 1(hidden): [preId,postId] wt (+/-wtChange in 300ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 24] 0.0500 (+0.0000)   [  0, 25] 0.0500 (+0.0000)   [  0, 26] 0.0500 (+0.0000)   [  0, 48] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 49] 0.0500 (+0.0000)   [  0, 50] 0.0500 (+0.0000)   [  0, 72] 0.0500 (+0.0000)   [  1,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   [  1,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 24] 0.0500 (+0.0000)   [  1, 25] 0.0500 (+0.0000)   [  1, 26] 0.0500 (+0.0000)   [  1, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 48] 0.0500 (+0.0000)   [  1, 49] 0.0500 (+0.0000)   [  1, 50] 0.0500 (+0.0000)   [  1, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 73] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  2, 24] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 25] 0.0500 (+0.0000)   [  2, 26] 0.0500 (+0.0000)   [  2, 27] 0.0500 (+0.0000)   [  2, 28] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 48] 0.0500 (+0.0000)   [  2, 49] 0.0500 (+0.0000)   [  2, 50] 0.0500 (+0.0000)   [  2, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 52] 0.0500 (+0.0000)   [  2, 74] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   [  3,  1] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   [  3,  5] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  6] 0.0500 (+0.0000)   [  3, 25] 0.0500 (+0.0000)   [  3, 26] 0.0500 (+0.0000)   [  3, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 28] 0.0500 (+0.0000)   [  3, 29] 0.0500 (+0.0000)   [  3, 49] 0.0500 (+0.0000)   [  3, 50] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 51] 0.0500 (+0.0000)   [  3, 52] 0.0500 (+0.0000)   [  3, 53] 0.0500 (+0.0000)   [  3, 75] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   [  4,  7] 0.0500 (+0.0000)   [  4, 26] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 27] 0.0500 (+0.0000)   [  4, 28] 0.0500 (+0.0000)   [  4, 29] 0.0500 (+0.0000)   [  4, 30] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 50] 0.0500 (+0.0000)   [  4, 51] 0.0500 (+0.0000)   [  4, 52] 0.0500 (+0.0000)   [  4, 53] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 54] 0.0500 (+0.0000)   [  4, 76] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  4] 0.0500 (+0.0000)   [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  8] 0.0500 (+0.0000)   [  5, 27] 0.0500 (+0.0000)   [  5, 28] 0.0500 (+0.0000)   [  5, 29] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 30] 0.0500 (+0.0000)   [  5, 31] 0.0500 (+0.0000)   [  5, 51] 0.0500 (+0.0000)   [  5, 52] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 53] 0.0500 (+0.0000)   [  5, 54] 0.0500 (+0.0000)   [  5, 55] 0.0500 (+0.0000)   [  5, 77] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.300s) ConnectionMonitor ID=1 1(hidden) => 2(output): [preId,postId] wt (+/-wtChange in 300ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  0] 0.0500 (+0.0000)   [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  4] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  1] 0.0500 (+0.0000)   [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  5] 0.0500 (+0.0000)   [  3,  6] 0.0500 (+0.0000)   [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  7] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   [  5,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   [  5,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  7] 0.0500 (+0.0000)   [  6,  8] 0.0500 (+0.0000)   [  6,  9] 0.0500 (+0.0000)   [  7,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  5] 0.0500 (+0.0000)   [  7,  6] 0.0500 (+0.0000)   [  7,  7] 0.0500 (+0.0000)   [  7,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  9] 0.0500 (+0.0000)   [  8,  5] 0.0500 (+0.0000)   [  8,  6] 0.0500 (+0.0000)   [  8,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  8,  8] 0.0500 (+0.0000)   [  8,  9] 0.0500 (+0.0000)   [  9,  6] 0.0500 (+0.0000)   [  9,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  9,  8] 0.0500 (+0.0000)   [  9,  9] 0.0500 (+0.0000)   [ 10,  7] 0.0500 (+0.0000)   [ 10,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 10,  9] 0.0500 (+0.0000)   [ 11,  8] 0.0500 (+0.0000)   [ 11,  9] 0.0500 (+0.0000)   [ 12,  9] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 24,  0] 0.0500 (+0.0000)   [ 24,  1] 0.0500 (+0.0000)   [ 24,  2] 0.0500 (+0.0000)   [ 25,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 25,  1] 0.0500 (+0.0000)   [ 25,  2] 0.0500 (+0.0000)   [ 25,  3] 0.0500 (+0.0000)   [ 26,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 26,  1] 0.0500 (+0.0000)   [ 26,  2] 0.0500 (+0.0000)   [ 26,  3] 0.0500 (+0.0000)   [ 26,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  1] 0.0500 (+0.0000)   [ 27,  2] 0.0500 (+0.0000)   [ 27,  3] 0.0500 (+0.0000)   [ 27,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  5] 0.0500 (+0.0000)   [ 28,  2] 0.0500 (+0.0000)   [ 28,  3] 0.0500 (+0.0000)   [ 28,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 28,  5] 0.0500 (+0.0000)   [ 28,  6] 0.0500 (+0.0000)   [ 29,  3] 0.0500 (+0.0000)   [ 29,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 29,  5] 0.0500 (+0.0000)   [ 29,  6] 0.0500 (+0.0000)   [ 29,  7] 0.0500 (+0.0000)   [ 30,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 30,  5] 0.0500 (+0.0000)   [ 30,  6] 0.0500 (+0.0000)   [ 30,  7] 0.0500 (+0.0000)   [ 30,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 31,  5] 0.0500 (+0.0000)   [ 31,  6] 0.0500 (+0.0000)   [ 31,  7] 0.0500 (+0.0000)   [ 31,  8] 0.0500 (+0.0000)   
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=150ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.450s) SpikeMonitor for group input(0) has 2956 spikes in 150ms (25.14 +/- 67.49 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.450s) SpikeMonitor for group hidden(1) has 3778 spikes in 150ms (43.73 +/- 44.74 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.450s) SpikeMonitor for group output(2) has 0 spikes in 150ms (0.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.450s) ConnectionMonitor ID=0 0(input) => 1(hidden): [preId,postId] wt (+/-wtChange in 450ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 24] 0.0500 (+0.0000)   [  0, 25] 0.0500 (+0.0000)   [  0, 26] 0.0500 (+0.0000)   [  0, 48] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 49] 0.0500 (+0.0000)   [  0, 50] 0.0500 (+0.0000)   [  0, 72] 0.0500 (+0.0000)   [  1,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   [  1,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 24] 0.0500 (+0.0000)   [  1, 25] 0.0500 (+0.0000)   [  1, 26] 0.0500 (+0.0000)   [  1, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 48] 0.0500 (+0.0000)   [  1, 49] 0.0500 (+0.0000)   [  1, 50] 0.0500 (+0.0000)   [  1, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 73] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  2, 24] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 25] 0.0500 (+0.0000)   [  2, 26] 0.0500 (+0.0000)   [  2, 27] 0.0500 (+0.0000)   [  2, 28] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 48] 0.0500 (+0.0000)   [  2, 49] 0.0500 (+0.0000)   [  2, 50] 0.0500 (+0.0000)   [  2, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 52] 0.0500 (+0.0000)   [  2, 74] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   [  3,  1] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   [  3,  5] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  6] 0.0500 (+0.0000)   [  3, 25] 0.0500 (+0.0000)   [  3, 26] 0.0500 (+0.0000)   [  3, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 28] 0.0500 (+0.0000)   [  3, 29] 0.0500 (+0.0000)   [  3, 49] 0.0500 (+0.0000)   [  3, 50] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 51] 0.0500 (+0.0000)   [  3, 52] 0.0500 (+0.0000)   [  3, 53] 0.0500 (+0.0000)   [  3, 75] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   [  4,  7] 0.0500 (+0.0000)   [  4, 26] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 27] 0.0500 (+0.0000)   [  4, 28] 0.0500 (+0.0000)   [  4, 29] 0.0500 (+0.0000)   [  4, 30] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 50] 0.0500 (+0.0000)   [  4, 51] 0.0500 (+0.0000)   [  4, 52] 0.0500 (+0.0000)   [  4, 53] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 54] 0.0500 (+0.0000)   [  4, 76] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  4] 0.0500 (+0.0000)   [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  8] 0.0500 (+0.0000)   [  5, 27] 0.0500 (+0.0000)   [  5, 28] 0.0500 (+0.0000)   [  5, 29] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 30] 0.0500 (+0.0000)   [  5, 31] 0.0500 (+0.0000)   [  5, 51] 0.0500 (+0.0000)   [  5, 52] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 53] 0.0500 (+0.0000)   [  5, 54] 0.0500 (+0.0000)   [  5, 55] 0.0500 (+0.0000)   [  5, 77] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.450s) ConnectionMonitor ID=1 1(hidden) => 2(output): [preId,postId] wt (+/-wtChange in 450ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  0] 0.0500 (+0.0000)   [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  4] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  1] 0.0500 (+0.0000)   [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  5] 0.0500 (+0.0000)   [  3,  6] 0.0500 (+0.0000)   [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  7] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   [  5,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   [  5,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  7] 0.0500 (+0.0000)   [  6,  8] 0.0500 (+0.0000)   [  6,  9] 0.0500 (+0.0000)   [  7,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  5] 0.0500 (+0.0000)   [  7,  6] 0.0500 (+0.0000)   [  7,  7] 0.0500 (+0.0000)   [  7,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  9] 0.0500 (+0.0000)   [  8,  5] 0.0500 (+0.0000)   [  8,  6] 0.0500 (+0.0000)   [  8,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  8,  8] 0.0500 (+0.0000)   [  8,  9] 0.0500 (+0.0000)   [  9,  6] 0.0500 (+0.0000)   [  9,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  9,  8] 0.0500 (+0.0000)   [  9,  9] 0.0500 (+0.0000)   [ 10,  7] 0.0500 (+0.0000)   [ 10,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 10,  9] 0.0500 (+0.0000)   [ 11,  8] 0.0500 (+0.0000)   [ 11,  9] 0.0500 (+0.0000)   [ 12,  9] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 24,  0] 0.0500 (+0.0000)   [ 24,  1] 0.0500 (+0.0000)   [ 24,  2] 0.0500 (+0.0000)   [ 25,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 25,  1] 0.0500 (+0.0000)   [ 25,  2] 0.0500 (+0.0000)   [ 25,  3] 0.0500 (+0.0000)   [ 26,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 26,  1] 0.0500 (+0.0000)   [ 26,  2] 0.0500 (+0.0000)   [ 26,  3] 0.0500 (+0.0000)   [ 26,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  1] 0.0500 (+0.0000)   [ 27,  2] 0.0500 (+0.0000)   [ 27,  3] 0.0500 (+0.0000)   [ 27,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  5] 0.0500 (+0.0000)   [ 28,  2] 0.0500 (+0.0000)   [ 28,  3] 0.0500 (+0.0000)   [ 28,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 28,  5] 0.0500 (+0.0000)   [ 28,  6] 0.0500 (+0.0000)   [ 29,  3] 0.0500 (+0.0000)   [ 29,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 29,  5] 0.0500 (+0.0000)   [ 29,  6] 0.0500 (+0.0000)   [ 29,  7] 0.0500 (+0.0000)   [ 30,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 30,  5] 0.0500 (+0.0000)   [ 30,  6] 0.0500 (+0.0000)   [ 30,  7] 0.0500 (+0.0000)   [ 30,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 31,  5] 0.0500 (+0.0000)   [ 31,  6] 0.0500 (+0.0000)   [ 31,  7] 0.0500 (+0.0000)   [ 31,  8] 0.0500 (+0.0000)   
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=150ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.600s) SpikeMonitor for group input(0) has 2631 spikes in 150ms (22.37 +/- 69.18 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.600s) SpikeMonitor for group hidden(1) has 3039 spikes in 150ms (35.17 +/- 49.95 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.600s) SpikeMonitor for group output(2) has 0 spikes in 150ms (0.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.600s) ConnectionMonitor ID=0 0(input) => 1(hidden): [preId,postId] wt (+/-wtChange in 600ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 24] 0.0500 (+0.0000)   [  0, 25] 0.0500 (+0.0000)   [  0, 26] 0.0500 (+0.0000)   [  0, 48] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 49] 0.0500 (+0.0000)   [  0, 50] 0.0500 (+0.0000)   [  0, 72] 0.0500 (+0.0000)   [  1,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   [  1,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 24] 0.0500 (+0.0000)   [  1, 25] 0.0500 (+0.0000)   [  1, 26] 0.0500 (+0.0000)   [  1, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 48] 0.0500 (+0.0000)   [  1, 49] 0.0500 (+0.0000)   [  1, 50] 0.0500 (+0.0000)   [  1, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 73] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  2, 24] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 25] 0.0500 (+0.0000)   [  2, 26] 0.0500 (+0.0000)   [  2, 27] 0.0500 (+0.0000)   [  2, 28] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 48] 0.0500 (+0.0000)   [  2, 49] 0.0500 (+0.0000)   [  2, 50] 0.0500 (+0.0000)   [  2, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 52] 0.0500 (+0.0000)   [  2, 74] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   [  3,  1] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   [  3,  5] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  6] 0.0500 (+0.0000)   [  3, 25] 0.0500 (+0.0000)   [  3, 26] 0.0500 (+0.0000)   [  3, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 28] 0.0500 (+0.0000)   [  3, 29] 0.0500 (+0.0000)   [  3, 49] 0.0500 (+0.0000)   [  3, 50] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 51] 0.0500 (+0.0000)   [  3, 52] 0.0500 (+0.0000)   [  3, 53] 0.0500 (+0.0000)   [  3, 75] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   [  4,  7] 0.0500 (+0.0000)   [  4, 26] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 27] 0.0500 (+0.0000)   [  4, 28] 0.0500 (+0.0000)   [  4, 29] 0.0500 (+0.0000)   [  4, 30] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 50] 0.0500 (+0.0000)   [  4, 51] 0.0500 (+0.0000)   [  4, 52] 0.0500 (+0.0000)   [  4, 53] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 54] 0.0500 (+0.0000)   [  4, 76] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  4] 0.0500 (+0.0000)   [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  8] 0.0500 (+0.0000)   [  5, 27] 0.0500 (+0.0000)   [  5, 28] 0.0500 (+0.0000)   [  5, 29] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 30] 0.0500 (+0.0000)   [  5, 31] 0.0500 (+0.0000)   [  5, 51] 0.0500 (+0.0000)   [  5, 52] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 53] 0.0500 (+0.0000)   [  5, 54] 0.0500 (+0.0000)   [  5, 55] 0.0500 (+0.0000)   [  5, 77] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.600s) ConnectionMonitor ID=1 1(hidden) => 2(output): [preId,postId] wt (+/-wtChange in 600ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  0] 0.0500 (+0.0000)   [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  4] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  1] 0.0500 (+0.0000)   [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  5] 0.0500 (+0.0000)   [  3,  6] 0.0500 (+0.0000)   [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  7] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   [  5,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   [  5,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  7] 0.0500 (+0.0000)   [  6,  8] 0.0500 (+0.0000)   [  6,  9] 0.0500 (+0.0000)   [  7,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  5] 0.0500 (+0.0000)   [  7,  6] 0.0500 (+0.0000)   [  7,  7] 0.0500 (+0.0000)   [  7,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  9] 0.0500 (+0.0000)   [  8,  5] 0.0500 (+0.0000)   [  8,  6] 0.0500 (+0.0000)   [  8,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  8,  8] 0.0500 (+0.0000)   [  8,  9] 0.0500 (+0.0000)   [  9,  6] 0.0500 (+0.0000)   [  9,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  9,  8] 0.0500 (+0.0000)   [  9,  9] 0.0500 (+0.0000)   [ 10,  7] 0.0500 (+0.0000)   [ 10,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 10,  9] 0.0500 (+0.0000)   [ 11,  8] 0.0500 (+0.0000)   [ 11,  9] 0.0500 (+0.0000)   [ 12,  9] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 24,  0] 0.0500 (+0.0000)   [ 24,  1] 0.0500 (+0.0000)   [ 24,  2] 0.0500 (+0.0000)   [ 25,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 25,  1] 0.0500 (+0.0000)   [ 25,  2] 0.0500 (+0.0000)   [ 25,  3] 0.0500 (+0.0000)   [ 26,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 26,  1] 0.0500 (+0.0000)   [ 26,  2] 0.0500 (+0.0000)   [ 26,  3] 0.0500 (+0.0000)   [ 26,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  1] 0.0500 (+0.0000)   [ 27,  2] 0.0500 (+0.0000)   [ 27,  3] 0.0500 (+0.0000)   [ 27,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  5] 0.0500 (+0.0000)   [ 28,  2] 0.0500 (+0.0000)   [ 28,  3] 0.0500 (+0.0000)   [ 28,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 28,  5] 0.0500 (+0.0000)   [ 28,  6] 0.0500 (+0.0000)   [ 29,  3] 0.0500 (+0.0000)   [ 29,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 29,  5] 0.0500 (+0.0000)   [ 29,  6] 0.0500 (+0.0000)   [ 29,  7] 0.0500 (+0.0000)   [ 30,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 30,  5] 0.0500 (+0.0000)   [ 30,  6] 0.0500 (+0.0000)   [ 30,  7] 0.0500 (+0.0000)   [ 30,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 31,  5] 0.0500 (+0.0000)   [ 31,  6] 0.0500 (+0.0000)   [ 31,  7] 0.0500 (+0.0000)   [ 31,  8] 0.0500 (+0.0000)   
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=150ms, printRunSummary=y
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.750s) SpikeMonitor for group input(0) has 3412 spikes in 150ms (29.01 +/- 73.84 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.750s) SpikeMonitor for group hidden(1) has 4032 spikes in 150ms (46.67 +/- 57.77 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.750s) SpikeMonitor for group output(2) has 0 spikes in 150ms (0.00 +/- 0.00 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.750s) ConnectionMonitor ID=0 0(input) => 1(hidden): [preId,postId] wt (+/-wtChange in 750ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 24] 0.0500 (+0.0000)   [  0, 25] 0.0500 (+0.0000)   [  0, 26] 0.0500 (+0.0000)   [  0, 48] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0, 49] 0.0500 (+0.0000)   [  0, 50] 0.0500 (+0.0000)   [  0, 72] 0.0500 (+0.0000)   [  1,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   [  1,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 24] 0.0500 (+0.0000)   [  1, 25] 0.0500 (+0.0000)   [  1, 26] 0.0500 (+0.0000)   [  1, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 48] 0.0500 (+0.0000)   [  1, 49] 0.0500 (+0.0000)   [  1, 50] 0.0500 (+0.0000)   [  1, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1, 73] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  2, 24] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 25] 0.0500 (+0.0000)   [  2, 26] 0.0500 (+0.0000)   [  2, 27] 0.0500 (+0.0000)   [  2, 28] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 48] 0.0500 (+0.0000)   [  2, 49] 0.0500 (+0.0000)   [  2, 50] 0.0500 (+0.0000)   [  2, 51] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2, 52] 0.0500 (+0.0000)   [  2, 74] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   [  3,  1] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   [  3,  5] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  6] 0.0500 (+0.0000)   [  3, 25] 0.0500 (+0.0000)   [  3, 26] 0.0500 (+0.0000)   [  3, 27] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 28] 0.0500 (+0.0000)   [  3, 29] 0.0500 (+0.0000)   [  3, 49] 0.0500 (+0.0000)   [  3, 50] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3, 51] 0.0500 (+0.0000)   [  3, 52] 0.0500 (+0.0000)   [  3, 53] 0.0500 (+0.0000)   [  3, 75] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   [  4,  7] 0.0500 (+0.0000)   [  4, 26] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 27] 0.0500 (+0.0000)   [  4, 28] 0.0500 (+0.0000)   [  4, 29] 0.0500 (+0.0000)   [  4, 30] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 50] 0.0500 (+0.0000)   [  4, 51] 0.0500 (+0.0000)   [  4, 52] 0.0500 (+0.0000)   [  4, 53] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4, 54] 0.0500 (+0.0000)   [  4, 76] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  4] 0.0500 (+0.0000)   [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  8] 0.0500 (+0.0000)   [  5, 27] 0.0500 (+0.0000)   [  5, 28] 0.0500 (+0.0000)   [  5, 29] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 30] 0.0500 (+0.0000)   [  5, 31] 0.0500 (+0.0000)   [  5, 51] 0.0500 (+0.0000)   [  5, 52] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5, 53] 0.0500 (+0.0000)   [  5, 54] 0.0500 (+0.0000)   [  5, 55] 0.0500 (+0.0000)   [  5, 77] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:361] (t=0.750s) ConnectionMonitor ID=1 1(hidden) => 2(output): [preId,postId] wt (+/-wtChange in 750ms) show first 100
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  0,  0] 0.0500 (+0.0000)   [  0,  1] 0.0500 (+0.0000)   [  0,  2] 0.0500 (+0.0000)   [  0,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  0] 0.0500 (+0.0000)   [  1,  1] 0.0500 (+0.0000)   [  1,  2] 0.0500 (+0.0000)   [  1,  3] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  1,  4] 0.0500 (+0.0000)   [  2,  0] 0.0500 (+0.0000)   [  2,  1] 0.0500 (+0.0000)   [  2,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  2,  3] 0.0500 (+0.0000)   [  2,  4] 0.0500 (+0.0000)   [  2,  5] 0.0500 (+0.0000)   [  3,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  1] 0.0500 (+0.0000)   [  3,  2] 0.0500 (+0.0000)   [  3,  3] 0.0500 (+0.0000)   [  3,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  3,  5] 0.0500 (+0.0000)   [  3,  6] 0.0500 (+0.0000)   [  4,  1] 0.0500 (+0.0000)   [  4,  2] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  3] 0.0500 (+0.0000)   [  4,  4] 0.0500 (+0.0000)   [  4,  5] 0.0500 (+0.0000)   [  4,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  4,  7] 0.0500 (+0.0000)   [  5,  2] 0.0500 (+0.0000)   [  5,  3] 0.0500 (+0.0000)   [  5,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  5,  5] 0.0500 (+0.0000)   [  5,  6] 0.0500 (+0.0000)   [  5,  7] 0.0500 (+0.0000)   [  5,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  3] 0.0500 (+0.0000)   [  6,  4] 0.0500 (+0.0000)   [  6,  5] 0.0500 (+0.0000)   [  6,  6] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  6,  7] 0.0500 (+0.0000)   [  6,  8] 0.0500 (+0.0000)   [  6,  9] 0.0500 (+0.0000)   [  7,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  5] 0.0500 (+0.0000)   [  7,  6] 0.0500 (+0.0000)   [  7,  7] 0.0500 (+0.0000)   [  7,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  7,  9] 0.0500 (+0.0000)   [  8,  5] 0.0500 (+0.0000)   [  8,  6] 0.0500 (+0.0000)   [  8,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  8,  8] 0.0500 (+0.0000)   [  8,  9] 0.0500 (+0.0000)   [  9,  6] 0.0500 (+0.0000)   [  9,  7] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [  9,  8] 0.0500 (+0.0000)   [  9,  9] 0.0500 (+0.0000)   [ 10,  7] 0.0500 (+0.0000)   [ 10,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 10,  9] 0.0500 (+0.0000)   [ 11,  8] 0.0500 (+0.0000)   [ 11,  9] 0.0500 (+0.0000)   [ 12,  9] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 24,  0] 0.0500 (+0.0000)   [ 24,  1] 0.0500 (+0.0000)   [ 24,  2] 0.0500 (+0.0000)   [ 25,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 25,  1] 0.0500 (+0.0000)   [ 25,  2] 0.0500 (+0.0000)   [ 25,  3] 0.0500 (+0.0000)   [ 26,  0] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 26,  1] 0.0500 (+0.0000)   [ 26,  2] 0.0500 (+0.0000)   [ 26,  3] 0.0500 (+0.0000)   [ 26,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  1] 0.0500 (+0.0000)   [ 27,  2] 0.0500 (+0.0000)   [ 27,  3] 0.0500 (+0.0000)   [ 27,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 27,  5] 0.0500 (+0.0000)   [ 28,  2] 0.0500 (+0.0000)   [ 28,  3] 0.0500 (+0.0000)   [ 28,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 28,  5] 0.0500 (+0.0000)   [ 28,  6] 0.0500 (+0.0000)   [ 29,  3] 0.0500 (+0.0000)   [ 29,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 29,  5] 0.0500 (+0.0000)   [ 29,  6] 0.0500 (+0.0000)   [ 29,  7] 0.0500 (+0.0000)   [ 30,  4] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 30,  5] 0.0500 (+0.0000)   [ 30,  6] 0.0500 (+0.0000)   [ 30,  7] 0.0500 (+0.0000)   [ 30,  8] 0.0500 (+0.0000)   
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\monitor\connection_monitor_core.cpp:395] [ 31,  5] 0.0500 (+0.0000)   [ 31,  6] 0.0500 (+0.0000)   [ 31,  7] 0.0500 (+0.0000)   [ 31,  8] 0.0500 (+0.0000)   
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core1_input(0) has 4750 spikes in 500ms (37.11 +/- 82.54 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core1_output(1) has 59006 spikes in 500ms (460.98 +/- 484.53 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core2_input(2) has 6548 spikes in 500ms (51.16 +/- 90.83 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core2_output(3) has 85929 spikes in 500ms (671.32 +/- 451.19 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core3_input(4) has 5189 spikes in 500ms (40.54 +/- 83.89 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core3_output(5) has 76166 spikes in 500ms (595.05 +/- 477.36 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core4_input(6) has 7947 spikes in 500ms (62.09 +/- 100.17 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core4_output(7) has 93455 spikes in 500ms (730.12 +/- 429.84 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group result_output(8) has 4173 spikes in 500ms (834.60 +/- 350.18 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core1_input(0) has 4366 spikes in 500ms (34.11 +/- 78.70 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core1_output(1) has 66041 spikes in 500ms (515.95 +/- 476.35 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core2_input(2) has 6886 spikes in 500ms (53.80 +/- 95.39 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core2_output(3) has 94422 spikes in 500ms (737.67 +/- 405.98 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core3_input(4) has 5832 spikes in 500ms (45.56 +/- 87.93 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core3_output(5) has 93952 spikes in 500ms (734.00 +/- 405.48 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core4_input(6) has 7132 spikes in 500ms (55.72 +/- 94.77 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core4_output(7) has 111502 spikes in 500ms (871.11 +/- 307.22 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group result_output(8) has 4996 spikes in 500ms (999.20 +/- 1.69 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core1_input(0) has 3704 spikes in 500ms (28.94 +/- 70.04 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core1_output(1) has 87984 spikes in 500ms (687.38 +/- 432.09 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core2_input(2) has 4935 spikes in 500ms (38.55 +/- 81.82 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core2_output(3) has 97338 spikes in 500ms (760.45 +/- 393.04 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core3_input(4) has 3206 spikes in 500ms (25.05 +/- 66.12 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core3_output(5) has 91476 spikes in 500ms (714.66 +/- 408.57 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core4_input(6) has 6545 spikes in 500ms (51.13 +/- 89.30 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core4_output(7) has 112009 spikes in 500ms (875.07 +/- 283.31 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core1_input(0) has 1611 spikes in 500ms (12.59 +/- 50.46 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core1_output(1) has 61319 spikes in 500ms (479.05 +/- 414.70 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core2_input(2) has 4163 spikes in 500ms (32.52 +/- 78.54 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core2_output(3) has 76801 spikes in 500ms (600.01 +/- 429.35 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core3_input(4) has 5292 spikes in 500ms (41.34 +/- 87.48 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core3_output(5) has 87523 spikes in 500ms (683.77 +/- 422.85 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core4_input(6) has 5538 spikes in 500ms (43.27 +/- 87.78 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core4_output(7) has 109142 spikes in 500ms (852.67 +/- 294.20 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core1_input(0) has 5067 spikes in 500ms (39.59 +/- 85.89 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core1_output(1) has 59380 spikes in 500ms (463.91 +/- 471.40 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core2_input(2) has 7747 spikes in 500ms (60.52 +/- 99.25 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core2_output(3) has 82694 spikes in 500ms (646.05 +/- 459.39 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core3_input(4) has 5811 spikes in 500ms (45.40 +/- 90.91 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core3_output(5) has 80056 spikes in 500ms (625.44 +/- 446.26 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core4_input(6) has 7518 spikes in 500ms (58.73 +/- 98.91 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core4_output(7) has 109234 spikes in 500ms (853.39 +/- 305.97 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6545] 
 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6546] ********************    Simulation Summary      ***************************
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6549] Network Parameters: 	numNeurons = 1370 (numNExcReg:numNInhReg = 42.8:0.0)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6550] 			numSynapses = 16017
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6549] Network Parameters: 	numNeurons = 2058 (numNExcReg:numNInhReg = 50.2:0.0)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6550] 			numSynapses = 25904
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6551] 			maxDelay = 1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6552] Simulation Mode:	COBA
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6553] Random Seed:		42
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6554] Timing:			Model Simulation Time = 0 sec
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431613.13 sec
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6554] Timing:			Model Simulation Time = 2 sec
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431608.91 sec
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6557] Average Firing Rate:	2+ms delay = 0.000 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = -nan(ind) Hz
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = -nan(ind) Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = 366.103 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = 366.103 Hz
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6561] Overall Spike Count Transferred:
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6562] 			2+ms delay = 0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6563] 			1ms delay = 0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6564] Overall Spike Count:	2+ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 0
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 1506878
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 1506878
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6567] *********************************************************************************
 
