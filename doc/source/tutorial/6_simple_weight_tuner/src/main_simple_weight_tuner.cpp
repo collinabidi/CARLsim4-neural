@@ -84,8 +84,9 @@ int main(int argc, const char* argv[]) {
 
 	sim->setupNetwork();
 
-	SpikeMonitor* SpikeMonOut = sim->setSpikeMonitor(gOut, "NULL");
-	SpikeMonitor* SpikeMonHidden = sim->setSpikeMonitor(gHid, "NULL");
+	sim->setSpikeMonitor(gIn, "DEFAULT");
+	sim->setSpikeMonitor(gOut, "DEFAULT");
+	sim->setSpikeMonitor(gHid, "DEFAULT");
 
 	// accept firing rates within this range of target firing
 	double targetFiringHid = 27.4;	// target firing rate for gHid
@@ -122,16 +123,7 @@ int main(int argc, const char* argv[]) {
 	printf("\n- Step 3: Verify result (gHid=%.4fHz, gOut=%.4fHz, +/- %.4fHz)\n", targetFiringHid, targetFiringOut, 
 		errorMarginHz);
 
-	SpikeMonOut->startRecording();
-	SpikeMonHidden->startRecording();
-
 	sim->runNetwork(10, 0, false);
-
-	SpikeMonOut->stopRecording();
-	SpikeMonHidden->stopRecording();
-
-	SpikeMonOut->print(false);
-	SpikeMonHidden->print(false);
 
 	delete sim;
 	return 0;

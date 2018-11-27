@@ -103,13 +103,13 @@ int main() {
 	sim.setNeuronParameters(gresult, 0.02f, 0.2f, -65.0f, 8.0f);
 
 	// set connection weight/neuron parameters
-	int in_out_1 = sim.connect(gin_1, gout_1, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+	int in_out_1 = sim.connect(gin_1, gout_1, "full", RangeWeight(10.0), 0.5f, RangeDelay(1),
 		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
-	int in_out_2 = sim.connect(gin_2, gout_2, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+	int in_out_2 = sim.connect(gin_2, gout_2, "full", RangeWeight(10.0), 0.5f, RangeDelay(1),
 		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
-	int in_out_3 = sim.connect(gin_3, gout_3, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+	int in_out_3 = sim.connect(gin_3, gout_3, "full", RangeWeight(10.0), 0.5f, RangeDelay(1),
 		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
-	int in_out_4 = sim.connect(gin_4, gout_4, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
+	int in_out_4 = sim.connect(gin_4, gout_4, "full", RangeWeight(10.0), 0.5f, RangeDelay(1),
 		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
 	int out_result_1 = sim.connect(gout_1, gresult, "full", RangeWeight(30.0), 0.5f, RangeDelay(1),
 		RadiusRF(3, 3, 1), SYN_PLASTIC, 1.5f, 0.5f);
@@ -180,10 +180,6 @@ int main() {
 			array_4.insert(array_4.end(), array.begin() + ((j + 12) * 28 + 4), array.begin() + ((j + 12) * 28 + 20));
 		}
 		// set input spikes based on input image
-		cout << array_1.size() << endl;
-		cout << array_2.size() << endl;
-		cout << array_3.size() << endl;
-		cout << array_4.size() << endl;
 		in_1.setRates(array_1);
 		sim.setSpikeRate(gin_1, &in_1);
 		in_2.setRates(array_2);

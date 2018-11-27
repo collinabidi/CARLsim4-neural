@@ -5,7 +5,7 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2023] ***************************** Configuring Network ********************************
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2025] Starting CARLsim simulation "truenorth core simulation" in USER mode
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2026] Random number seed: 42
-[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Wed Oct 17 10:13:28 2018
+[DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:2032] Current local time and date: Tue Nov 13 14:29:57 2018
 
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=0, mulFast=1.500000, mulSlow=0.500000
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:165] CONNECT SETUP: connId=1, mulFast=1.500000, mulSlow=0.500000
@@ -126,8 +126,8 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 0: core1_input(0) => core1_output(1)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 10.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 10.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
@@ -139,8 +139,8 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 1: core2_input(2) => core2_output(3)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 10.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 10.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
@@ -152,8 +152,8 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 2: core3_input(4) => core3_output(5)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 10.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 10.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
@@ -165,8 +165,8 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:185]   |-+ Local Connection Id 3: core4_input(6) => core4_output(7)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:186]     |- Type                       =  PLASTIC
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:187]     |- Min weight                 =  0.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 30.00000
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 30.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:188]     |- Max weight                 = 10.00000
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:189]     |- Initial weight             = 10.00000
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:190]     |- Min delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:191]     |- Max delay                  =        1
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:192]     |- Radius X                   =     3.00
@@ -385,53 +385,53 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:808] ******************** Running the simulation on 1 GPU(s) and 0 CPU(s) ***************************
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:809] 
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core1_input(0) has 4750 spikes in 500ms (37.11 +/- 82.54 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core1_output(1) has 59006 spikes in 500ms (460.98 +/- 484.53 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core1_output(1) has 56844 spikes in 500ms (444.09 +/- 479.59 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core2_input(2) has 6548 spikes in 500ms (51.16 +/- 90.83 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core2_output(3) has 85929 spikes in 500ms (671.32 +/- 451.19 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core2_output(3) has 83261 spikes in 500ms (650.48 +/- 453.44 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core3_input(4) has 5189 spikes in 500ms (40.54 +/- 83.89 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core3_output(5) has 76166 spikes in 500ms (595.05 +/- 477.36 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core3_output(5) has 73684 spikes in 500ms (575.66 +/- 473.72 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core4_input(6) has 7947 spikes in 500ms (62.09 +/- 100.17 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core4_output(7) has 93455 spikes in 500ms (730.12 +/- 429.84 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group result_output(8) has 4173 spikes in 500ms (834.60 +/- 350.18 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group core4_output(7) has 91278 spikes in 500ms (713.11 +/- 432.16 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=0.500s) SpikeMonitor for group result_output(8) has 4127 spikes in 500ms (825.40 +/- 364.20 Hz)
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core1_input(0) has 4366 spikes in 500ms (34.11 +/- 78.70 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core1_output(1) has 66041 spikes in 500ms (515.95 +/- 476.35 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core1_output(1) has 61179 spikes in 500ms (477.96 +/- 468.22 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core2_input(2) has 6886 spikes in 500ms (53.80 +/- 95.39 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core2_output(3) has 94422 spikes in 500ms (737.67 +/- 405.98 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core2_output(3) has 87945 spikes in 500ms (687.07 +/- 415.48 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core3_input(4) has 5832 spikes in 500ms (45.56 +/- 87.93 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core3_output(5) has 93952 spikes in 500ms (734.00 +/- 405.48 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core3_output(5) has 87537 spikes in 500ms (683.88 +/- 418.58 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core4_input(6) has 7132 spikes in 500ms (55.72 +/- 94.77 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core4_output(7) has 111502 spikes in 500ms (871.11 +/- 307.22 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group result_output(8) has 4996 spikes in 500ms (999.20 +/- 1.69 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group core4_output(7) has 106449 spikes in 500ms (831.63 +/- 327.85 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.000s) SpikeMonitor for group result_output(8) has 4998 spikes in 500ms (999.60 +/- 1.26 Hz)
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core1_input(0) has 3704 spikes in 500ms (28.94 +/- 70.04 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core1_output(1) has 87984 spikes in 500ms (687.38 +/- 432.09 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core1_output(1) has 79708 spikes in 500ms (622.72 +/- 423.55 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core2_input(2) has 4935 spikes in 500ms (38.55 +/- 81.82 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core2_output(3) has 97338 spikes in 500ms (760.45 +/- 393.04 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core2_output(3) has 88451 spikes in 500ms (691.02 +/- 393.77 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core3_input(4) has 3206 spikes in 500ms (25.05 +/- 66.12 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core3_output(5) has 91476 spikes in 500ms (714.66 +/- 408.57 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core3_output(5) has 81172 spikes in 500ms (634.16 +/- 407.74 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core4_input(6) has 6545 spikes in 500ms (51.13 +/- 89.30 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core4_output(7) has 112009 spikes in 500ms (875.07 +/- 283.31 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group core4_output(7) has 103795 spikes in 500ms (810.90 +/- 315.51 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=1.500s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core1_input(0) has 1611 spikes in 500ms (12.59 +/- 50.46 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core1_output(1) has 61319 spikes in 500ms (479.05 +/- 414.70 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core1_output(1) has 47413 spikes in 500ms (370.41 +/- 378.62 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core2_input(2) has 4163 spikes in 500ms (32.52 +/- 78.54 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core2_output(3) has 76801 spikes in 500ms (600.01 +/- 429.35 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core2_output(3) has 66838 spikes in 500ms (522.17 +/- 429.48 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core3_input(4) has 5292 spikes in 500ms (41.34 +/- 87.48 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core3_output(5) has 87523 spikes in 500ms (683.77 +/- 422.85 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core3_output(5) has 79365 spikes in 500ms (620.04 +/- 423.18 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core4_input(6) has 5538 spikes in 500ms (43.27 +/- 87.78 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core4_output(7) has 109142 spikes in 500ms (852.67 +/- 294.20 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group core4_output(7) has 98862 spikes in 500ms (772.36 +/- 321.61 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.000s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
 [DEBUG c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:797] runNetwork: runDur=500ms, printRunSummary=y
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core1_input(0) has 5067 spikes in 500ms (39.59 +/- 85.89 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core1_output(1) has 59380 spikes in 500ms (463.91 +/- 471.40 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core1_output(1) has 55983 spikes in 500ms (437.37 +/- 478.15 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core2_input(2) has 7747 spikes in 500ms (60.52 +/- 99.25 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core2_output(3) has 82694 spikes in 500ms (646.05 +/- 459.39 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core2_output(3) has 79535 spikes in 500ms (621.37 +/- 466.03 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core3_input(4) has 5811 spikes in 500ms (45.40 +/- 90.91 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core3_output(5) has 80056 spikes in 500ms (625.44 +/- 446.26 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core3_output(5) has 73561 spikes in 500ms (574.70 +/- 453.01 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core4_input(6) has 7518 spikes in 500ms (58.73 +/- 98.91 Hz)
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core4_output(7) has 109234 spikes in 500ms (853.39 +/- 305.97 Hz)
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group core4_output(7) has 102937 spikes in 500ms (804.20 +/- 341.04 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\print_snn_info.cpp:116] (t=2.500s) SpikeMonitor for group result_output(8) has 5000 spikes in 500ms (1000.00 +/- 0.00 Hz)
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6545] 
 
@@ -442,15 +442,15 @@
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6552] Simulation Mode:	COBA
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6553] Random Seed:		42
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6554] Timing:			Model Simulation Time = 2 sec
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431608.91 sec
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6555] 			Actual Execution Time = 431608.94 sec
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6557] Average Firing Rate:	2+ms delay = 0.000 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = 366.103 Hz
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = 366.103 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6559] 			1ms delay = 339.298 Hz
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6560] 			Overall = 339.298 Hz
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6561] Overall Spike Count Transferred:
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6562] 			2+ms delay = 0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6563] 			1ms delay = 0
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6564] Overall Spike Count:	2+ms delay = 0
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 1506878
-[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 1506878
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6565] 			1ms delay = 1396550
+[INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6566] 			Total = 1396550
 [INFO c:\users\collin abidi\desktop\carlsim4-neural\carlsim\kernel\src\snn_manager.cpp:6567] *********************************************************************************
 
